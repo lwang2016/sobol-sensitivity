@@ -2,14 +2,6 @@
 
 A reusable framework for decomposing robot task-error variance by noise source using Sobol sensitivity analysis. Given a robot affected by multiple concurrent noise sources (actuator variability, communication jitter, power supply fluctuations, sensor drift, etc.), the framework identifies which source matters most for each task type and whether the ranking changes across tasks.
 
-## Paper
-
-**"A Sobol Sensitivity Framework for Identifying Dominant Noise Sources in Robot Tasks"**
-
-Aaron Wang and Robert Chun
-
-IEEE MIT Undergraduate Research Technology Conference (URTC), 2026
-
 ## Framework
 
 The framework follows four steps:
