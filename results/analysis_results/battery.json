@@ -1,0 +1,192 @@
+{
+  "scenario": "C_Battery_Sag",
+  "total_files": 3,
+  "total_samples": 58093,
+  "total_duration_sec": 900.6449819110001,
+  "sag_slopes_V_per_sec": [
+    -0.003495920463562496,
+    -0.00028080796533174813,
+    -0.0021759919591593543
+  ],
+  "residual_noise_V": [
+    0.05330580951943084,
+    0.012991942921495296,
+    0.19004872765722497
+  ],
+  "per_file": [
+    {
+      "label": "ResearchLogger_C1_Full_Charge.csv",
+      "experiment": "C1_Full_Charge",
+      "commanded_power_L": "0.5",
+      "commanded_power_R": "0.3",
+      "duration_sec": 300.037465106,
+      "n_samples": 19224,
+      "voltage_start_V": 13.6553,
+      "voltage_end_V": 12.6767,
+      "voltage_mean_V": 13.110328755722014,
+      "voltage_std_V": 0.30725855058772833,
+      "voltage_min_V": 12.642,
+      "voltage_max_V": 13.835,
+      "voltage_drop_V": 0.9786000000000001,
+      "voltage_drop_pct": 7.166448192276992,
+      "sag_rate_mV_per_min": 195.6955608169009,
+      "quarters": [
+        {
+          "quarter": "Q1 (0-25%)",
+          "time_range_sec": "0-75",
+          "mean_V": 13.54497440699126,
+          "std_V": 0.13321703405774327,
+          "min_V": 13.297,
+          "max_V": 13.835
+        },
+        {
+          "quarter": "Q2 (25-50%)",
+          "time_range_sec": "75-151",
+          "mean_V": 13.191314814814815,
+          "std_V": 0.08123446832590005,
+          "min_V": 13.04,
+          "max_V": 13.372
+        },
+        {
+          "quarter": "Q3 (50-75%)",
+          "time_range_sec": "151-225",
+          "mean_V": 12.948359550561797,
+          "std_V": 0.061725920003653206,
+          "min_V": 12.812,
+          "max_V": 13.083
+        },
+        {
+          "quarter": "Q4 (75-100%)",
+          "time_range_sec": "225-300",
+          "mean_V": 12.756666250520182,
+          "std_V": 0.051851581354262044,
+          "min_V": 12.642,
+          "max_V": 12.865
+        }
+      ],
+      "trend_slope_V_per_sec": -0.003495920463562496,
+      "residual_std_V": 0.05330580951943084,
+      "residual_p95_V": 0.10001097298670884,
+      "total_distance_mm": 74197.07706812539,
+      "heading_start_rad": 0.0225032866001129,
+      "heading_end_rad": 0.7381352782249451,
+      "heading_total_change_deg": 41.00269280464436
+    },
+    {
+      "label": "ResearchLogger_C_2_Partial_Charge.csv",
+      "experiment": "C_2_Partial_Charge",
+      "commanded_power_L": "0.5",
+      "commanded_power_R": "0.3",
+      "duration_sec": 300.193991246,
+      "n_samples": 19773,
+      "voltage_start_V": 11.803300000000002,
+      "voltage_end_V": 11.806650000000001,
+      "voltage_mean_V": 11.849778738684064,
+      "voltage_std_V": 0.027588701451306447,
+      "voltage_min_V": 11.58,
+      "voltage_max_V": 11.947,
+      "voltage_drop_V": -0.003349999999999298,
+      "voltage_drop_pct": -0.02838189319935355,
+      "sag_rate_mV_per_min": -0.6695670328565783,
+      "quarters": [
+        {
+          "quarter": "Q1 (0-25%)",
+          "time_range_sec": "0-75",
+          "mean_V": 11.885748937891968,
+          "std_V": 0.02105707124046362,
+          "min_V": 11.58,
+          "max_V": 11.947
+        },
+        {
+          "quarter": "Q2 (25-50%)",
+          "time_range_sec": "75-149",
+          "mean_V": 11.853755613999596,
+          "std_V": 0.010878755247810241,
+          "min_V": 11.816,
+          "max_V": 11.89
+        },
+        {
+          "quarter": "Q3 (50-75%)",
+          "time_range_sec": "149-225",
+          "mean_V": 11.837845842605704,
+          "std_V": 0.011207553340698171,
+          "min_V": 11.799,
+          "max_V": 11.877
+        },
+        {
+          "quarter": "Q4 (75-100%)",
+          "time_range_sec": "225-300",
+          "mean_V": 11.821770226537216,
+          "std_V": 0.010982637236140187,
+          "min_V": 11.781,
+          "max_V": 11.855
+        }
+      ],
+      "trend_slope_V_per_sec": -0.00028080796533174813,
+      "residual_std_V": 0.012991942921495296,
+      "residual_p95_V": 0.024413999836150065,
+      "total_distance_mm": 145061.26064621832,
+      "heading_start_rad": 0.0682213976979255,
+      "heading_end_rad": 0.0682213976979255,
+      "heading_total_change_deg": 0.0
+    },
+    {
+      "label": "ResearchLogger_C_3_Transient_Load.csv",
+      "experiment": "C_3_Transient_Load",
+      "commanded_power_L": "0.3",
+      "commanded_power_R": "0.3",
+      "duration_sec": 300.413525559,
+      "n_samples": 19096,
+      "voltage_start_V": 12.759150000000002,
+      "voltage_end_V": 12.15985,
+      "voltage_mean_V": 12.217292574361124,
+      "voltage_std_V": 0.26779505869959863,
+      "voltage_min_V": 11.445,
+      "voltage_max_V": 12.86,
+      "voltage_drop_V": 0.5993000000000013,
+      "voltage_drop_pct": 4.697021353303326,
+      "sag_rate_mV_per_min": 119.69501018001958,
+      "quarters": [
+        {
+          "quarter": "Q1 (0-25%)",
+          "time_range_sec": "0-76",
+          "mean_V": 12.483638039379976,
+          "std_V": 0.22393863924253857,
+          "min_V": 11.812,
+          "max_V": 12.86
+        },
+        {
+          "quarter": "Q2 (25-50%)",
+          "time_range_sec": "76-150",
+          "mean_V": 12.277215123586092,
+          "std_V": 0.18550353809342154,
+          "min_V": 11.637,
+          "max_V": 12.603
+        },
+        {
+          "quarter": "Q3 (50-75%)",
+          "time_range_sec": "150-225",
+          "mean_V": 12.108715751989946,
+          "std_V": 0.18281319389375614,
+          "min_V": 11.545,
+          "max_V": 12.432
+        },
+        {
+          "quarter": "Q4 (75-100%)",
+          "time_range_sec": "225-300",
+          "mean_V": 11.99960138248848,
+          "std_V": 0.18752875295855545,
+          "min_V": 11.445,
+          "max_V": 12.305
+        }
+      ],
+      "trend_slope_V_per_sec": -0.0021759919591593543,
+      "residual_std_V": 0.19004872765722497,
+      "residual_p95_V": 0.26147602792214064,
+      "total_distance_mm": 132538.5384505501,
+      "heading_start_rad": 0.0140255093574523,
+      "heading_end_rad": 0.0682213976979255,
+      "heading_total_change_deg": 3.105195668871381
+    }
+  ]
+}
