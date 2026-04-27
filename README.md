@@ -57,6 +57,7 @@ paper/                 Paper source
 
 ## Data File Naming
 
+Data collection was done using DataLogger: https://github.com/SounderBots/FTC-Datalogger
 Original filenames were shortened for clarity. Mapping:
 
 | Repo path | Original filename |
