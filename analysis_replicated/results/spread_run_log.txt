@@ -1,0 +1,15 @@
+parking_hdg  spread S1(binned) J/M/B/T=+0.842/+0.007/+0.098/-0.000  ST=0.830/0.046/0.051/0.022  estimation-noise share=0.688  (233s)
+    within-sample SD across theta_J bins (low->high): 0.001847, 0.0019438, 0.0020886, 0.0023189, 0.0026845
+    within-sample SD across theta_M bins (low->high): 0.0021175, 0.002139, 0.002165, 0.0022227, 0.0022388
+    within-sample SD across theta_B bins (low->high): 0.0020598, 0.002104, 0.0021816, 0.0022464, 0.0022914
+    within-sample SD across theta_T bins (low->high): 0.0021931, 0.0021961, 0.0021794, 0.0021655, 0.0021491
+turn         spread S1(binned) J/M/B/T=+0.884/-0.004/+0.086/-0.003  ST=0.926/0.021/0.207/-0.025  estimation-noise share=0.694  (40s)
+    within-sample SD across theta_J bins (low->high): 0.0018558, 0.0019541, 0.0021155, 0.0023678, 0.0027985
+    within-sample SD across theta_M bins (low->high): 0.0022206, 0.0022157, 0.0022221, 0.0022182, 0.0022155
+    within-sample SD across theta_B bins (low->high): 0.0020883, 0.0021571, 0.0022329, 0.0022807, 0.0023333
+    within-sample SD across theta_T bins (low->high): 0.0022318, 0.0022372, 0.0021958, 0.0022117, 0.0022155
+transit      spread S1(binned) J/M/B/T=+0.547/+0.296/+0.064/-0.008  ST=0.782/0.343/0.135/-0.206  estimation-noise share=0.864  (143s)
+    within-sample SD across theta_J bins (low->high): 0.22545, 0.23059, 0.23752, 0.24328, 0.26256
+    within-sample SD across theta_M bins (low->high): 0.24708, 0.23976, 0.22671, 0.23694, 0.24886
+    within-sample SD across theta_B bins (low->high): 0.24573, 0.24343, 0.23935, 0.23727, 0.23363
+    within-sample SD across theta_T bins (low->high): 0.23968, 0.23954, 0.23965, 0.24047, 0.24006

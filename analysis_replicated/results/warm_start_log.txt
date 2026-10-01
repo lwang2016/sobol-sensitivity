@@ -1,0 +1,233 @@
+Mismatch impact at warm start, 1024 draws x 4 runs
+  task_start|warm_start_s=0        transit      mismatch  0.0%: mean    4.705 mm  P95    4.984
+  task_start|warm_start_s=0        transit      mismatch  5.0%: mean   34.179 mm  P95   36.515
+  task_start|warm_start_s=0        transit      mismatch 10.0%: mean   66.257 mm  P95   70.798
+  task_start|warm_start_s=0        transit      mismatch 20.0%: mean  126.254 mm  P95  134.950
+  task_start|warm_start_s=0        turn         mismatch  0.0%: mean    0.945 deg  P95    1.123
+  task_start|warm_start_s=0        turn         mismatch  5.0%: mean    0.945 deg  P95    1.123
+  task_start|warm_start_s=0        turn         mismatch 10.0%: mean    0.945 deg  P95    1.123
+  task_start|warm_start_s=0        turn         mismatch 20.0%: mean    0.945 deg  P95    1.123
+  task_start|warm_start_s=0        tracking     mismatch  0.0%: mean    0.950 mm  P95    1.811
+  task_start|warm_start_s=0        tracking     mismatch  5.0%: mean   26.681 mm  P95   29.426
+  task_start|warm_start_s=0        tracking     mismatch 10.0%: mean   52.100 mm  P95   56.195
+  task_start|warm_start_s=0        tracking     mismatch 20.0%: mean   99.461 mm  P95  106.404
+  task_start|warm_start_s=0        parking_pos  mismatch  0.0%: mean    4.699 mm  P95    4.975
+  task_start|warm_start_s=0        parking_pos  mismatch  5.0%: mean    9.253 mm  P95   10.977
+  task_start|warm_start_s=0        parking_pos  mismatch 10.0%: mean   16.411 mm  P95   18.595
+  task_start|warm_start_s=0        parking_pos  mismatch 20.0%: mean   30.486 mm  P95   33.413
+  task_start|warm_start_s=0        parking_hdg  mismatch  0.0%: mean    0.908 deg  P95    1.089
+  task_start|warm_start_s=0        parking_hdg  mismatch  5.0%: mean    0.908 deg  P95    1.147
+  task_start|warm_start_s=0        parking_hdg  mismatch 10.0%: mean    0.908 deg  P95    1.226
+  task_start|warm_start_s=0        parking_hdg  mismatch 20.0%: mean    0.908 deg  P95    1.373
+  task_start|warm_start_s=30       transit      mismatch  0.0%: mean    4.707 mm  P95    4.983
+  task_start|warm_start_s=30       transit      mismatch  5.0%: mean   34.230 mm  P95   36.566
+  task_start|warm_start_s=30       transit      mismatch 10.0%: mean   66.356 mm  P95   70.898
+  task_start|warm_start_s=30       transit      mismatch 20.0%: mean  126.443 mm  P95  135.141
+  task_start|warm_start_s=30       turn         mismatch  0.0%: mean    0.942 deg  P95    1.121
+  task_start|warm_start_s=30       turn         mismatch  5.0%: mean    0.942 deg  P95    1.121
+  task_start|warm_start_s=30       turn         mismatch 10.0%: mean    0.942 deg  P95    1.121
+  task_start|warm_start_s=30       turn         mismatch 20.0%: mean    0.942 deg  P95    1.121
+  task_start|warm_start_s=30       tracking     mismatch  0.0%: mean    0.952 mm  P95    1.816
+  task_start|warm_start_s=30       tracking     mismatch  5.0%: mean   26.721 mm  P95   29.493
+  task_start|warm_start_s=30       tracking     mismatch 10.0%: mean   52.178 mm  P95   56.304
+  task_start|warm_start_s=30       tracking     mismatch 20.0%: mean   99.610 mm  P95  106.531
+  task_start|warm_start_s=30       parking_pos  mismatch  0.0%: mean    4.702 mm  P95    4.974
+  task_start|warm_start_s=30       parking_pos  mismatch  5.0%: mean    9.263 mm  P95   11.000
+  task_start|warm_start_s=30       parking_pos  mismatch 10.0%: mean   16.430 mm  P95   18.630
+  task_start|warm_start_s=30       parking_pos  mismatch 20.0%: mean   30.521 mm  P95   33.461
+  task_start|warm_start_s=30       parking_hdg  mismatch  0.0%: mean    0.907 deg  P95    1.088
+  task_start|warm_start_s=30       parking_hdg  mismatch  5.0%: mean    0.907 deg  P95    1.148
+  task_start|warm_start_s=30       parking_hdg  mismatch 10.0%: mean    0.908 deg  P95    1.227
+  task_start|warm_start_s=30       parking_hdg  mismatch 20.0%: mean    0.908 deg  P95    1.372
+  task_start|warm_start_s=150      transit      mismatch  0.0%: mean    4.715 mm  P95    4.983
+  task_start|warm_start_s=150      transit      mismatch  5.0%: mean   34.433 mm  P95   36.815
+  task_start|warm_start_s=150      transit      mismatch 10.0%: mean   66.755 mm  P95   71.379
+  task_start|warm_start_s=150      transit      mismatch 20.0%: mean  127.205 mm  P95  136.029
+  task_start|warm_start_s=150      turn         mismatch  0.0%: mean    0.948 deg  P95    1.125
+  task_start|warm_start_s=150      turn         mismatch  5.0%: mean    0.948 deg  P95    1.125
+  task_start|warm_start_s=150      turn         mismatch 10.0%: mean    0.948 deg  P95    1.125
+  task_start|warm_start_s=150      turn         mismatch 20.0%: mean    0.948 deg  P95    1.125
+  task_start|warm_start_s=150      tracking     mismatch  0.0%: mean    0.960 mm  P95    1.833
+  task_start|warm_start_s=150      tracking     mismatch  5.0%: mean   26.882 mm  P95   29.716
+  task_start|warm_start_s=150      tracking     mismatch 10.0%: mean   52.493 mm  P95   56.771
+  task_start|warm_start_s=150      tracking     mismatch 20.0%: mean  100.211 mm  P95  107.153
+  task_start|warm_start_s=150      parking_pos  mismatch  0.0%: mean    4.697 mm  P95    4.975
+  task_start|warm_start_s=150      parking_pos  mismatch  5.0%: mean    9.293 mm  P95   11.012
+  task_start|warm_start_s=150      parking_pos  mismatch 10.0%: mean   16.496 mm  P95   18.690
+  task_start|warm_start_s=150      parking_pos  mismatch 20.0%: mean   30.651 mm  P95   33.609
+  task_start|warm_start_s=150      parking_hdg  mismatch  0.0%: mean    0.909 deg  P95    1.089
+  task_start|warm_start_s=150      parking_hdg  mismatch  5.0%: mean    0.909 deg  P95    1.148
+  task_start|warm_start_s=150      parking_hdg  mismatch 10.0%: mean    0.910 deg  P95    1.227
+  task_start|warm_start_s=150      parking_hdg  mismatch 20.0%: mean    0.910 deg  P95    1.374
+  task_start|warm_start_s=300      transit      mismatch  0.0%: mean    4.714 mm  P95    4.981
+  task_start|warm_start_s=300      transit      mismatch  5.0%: mean   34.691 mm  P95   37.166
+  task_start|warm_start_s=300      transit      mismatch 10.0%: mean   67.262 mm  P95   72.055
+  task_start|warm_start_s=300      transit      mismatch 20.0%: mean  128.176 mm  P95  137.377
+  task_start|warm_start_s=300      turn         mismatch  0.0%: mean    0.949 deg  P95    1.124
+  task_start|warm_start_s=300      turn         mismatch  5.0%: mean    0.949 deg  P95    1.124
+  task_start|warm_start_s=300      turn         mismatch 10.0%: mean    0.949 deg  P95    1.124
+  task_start|warm_start_s=300      turn         mismatch 20.0%: mean    0.949 deg  P95    1.124
+  task_start|warm_start_s=300      tracking     mismatch  0.0%: mean    0.969 mm  P95    1.858
+  task_start|warm_start_s=300      tracking     mismatch  5.0%: mean   27.087 mm  P95   30.016
+  task_start|warm_start_s=300      tracking     mismatch 10.0%: mean   52.894 mm  P95   57.347
+  task_start|warm_start_s=300      tracking     mismatch 20.0%: mean  100.976 mm  P95  108.250
+  task_start|warm_start_s=300      parking_pos  mismatch  0.0%: mean    4.706 mm  P95    4.976
+  task_start|warm_start_s=300      parking_pos  mismatch  5.0%: mean    9.336 mm  P95   11.056
+  task_start|warm_start_s=300      parking_pos  mismatch 10.0%: mean   16.583 mm  P95   18.784
+  task_start|warm_start_s=300      parking_pos  mismatch 20.0%: mean   30.818 mm  P95   33.815
+  task_start|warm_start_s=300      parking_hdg  mismatch  0.0%: mean    0.909 deg  P95    1.088
+  task_start|warm_start_s=300      parking_hdg  mismatch  5.0%: mean    0.909 deg  P95    1.153
+  task_start|warm_start_s=300      parking_hdg  mismatch 10.0%: mean    0.909 deg  P95    1.233
+  task_start|warm_start_s=300      parking_hdg  mismatch 20.0%: mean    0.909 deg  P95    1.382
+  task_start|warm_start_s=600      transit      mismatch  0.0%: mean    4.720 mm  P95    4.983
+  task_start|warm_start_s=600      transit      mismatch  5.0%: mean   35.224 mm  P95   37.996
+  task_start|warm_start_s=600      transit      mismatch 10.0%: mean   68.308 mm  P95   73.654
+  task_start|warm_start_s=600      transit      mismatch 20.0%: mean  130.177 mm  P95  140.366
+  task_start|warm_start_s=600      turn         mismatch  0.0%: mean    0.950 deg  P95    1.121
+  task_start|warm_start_s=600      turn         mismatch  5.0%: mean    0.950 deg  P95    1.121
+  task_start|warm_start_s=600      turn         mismatch 10.0%: mean    0.950 deg  P95    1.121
+  task_start|warm_start_s=600      turn         mismatch 20.0%: mean    0.950 deg  P95    1.121
+  task_start|warm_start_s=600      tracking     mismatch  0.0%: mean    0.989 mm  P95    1.908
+  task_start|warm_start_s=600      tracking     mismatch  5.0%: mean   27.510 mm  P95   30.658
+  task_start|warm_start_s=600      tracking     mismatch 10.0%: mean   53.720 mm  P95   58.508
+  task_start|warm_start_s=600      tracking     mismatch 20.0%: mean  102.553 mm  P95  110.678
+  task_start|warm_start_s=600      parking_pos  mismatch  0.0%: mean    4.710 mm  P95    4.975
+  task_start|warm_start_s=600      parking_pos  mismatch  5.0%: mean    9.423 mm  P95   11.139
+  task_start|warm_start_s=600      parking_pos  mismatch 10.0%: mean   16.762 mm  P95   18.992
+  task_start|warm_start_s=600      parking_pos  mismatch 20.0%: mean   31.165 mm  P95   34.212
+  task_start|warm_start_s=600      parking_hdg  mismatch  0.0%: mean    0.913 deg  P95    1.089
+  task_start|warm_start_s=600      parking_hdg  mismatch  5.0%: mean    0.913 deg  P95    1.149
+  task_start|warm_start_s=600      parking_hdg  mismatch 10.0%: mean    0.913 deg  P95    1.231
+  task_start|warm_start_s=600      parking_hdg  mismatch 20.0%: mean    0.913 deg  P95    1.382
+  operation_start|warm_start_s=0   transit      mismatch  0.0%: mean    4.705 mm  P95    4.984
+  operation_start|warm_start_s=0   transit      mismatch  5.0%: mean   34.179 mm  P95   36.515
+  operation_start|warm_start_s=0   transit      mismatch 10.0%: mean   66.257 mm  P95   70.798
+  operation_start|warm_start_s=0   transit      mismatch 20.0%: mean  126.254 mm  P95  134.950
+  operation_start|warm_start_s=0   turn         mismatch  0.0%: mean    0.945 deg  P95    1.123
+  operation_start|warm_start_s=0   turn         mismatch  5.0%: mean    0.945 deg  P95    1.123
+  operation_start|warm_start_s=0   turn         mismatch 10.0%: mean    0.945 deg  P95    1.123
+  operation_start|warm_start_s=0   turn         mismatch 20.0%: mean    0.945 deg  P95    1.123
+  operation_start|warm_start_s=0   tracking     mismatch  0.0%: mean    0.950 mm  P95    1.811
+  operation_start|warm_start_s=0   tracking     mismatch  5.0%: mean   26.681 mm  P95   29.426
+  operation_start|warm_start_s=0   tracking     mismatch 10.0%: mean   52.100 mm  P95   56.195
+  operation_start|warm_start_s=0   tracking     mismatch 20.0%: mean   99.461 mm  P95  106.404
+  operation_start|warm_start_s=0   parking_pos  mismatch  0.0%: mean    4.699 mm  P95    4.975
+  operation_start|warm_start_s=0   parking_pos  mismatch  5.0%: mean    9.252 mm  P95   10.976
+  operation_start|warm_start_s=0   parking_pos  mismatch 10.0%: mean   16.409 mm  P95   18.593
+  operation_start|warm_start_s=0   parking_pos  mismatch 20.0%: mean   30.481 mm  P95   33.406
+  operation_start|warm_start_s=0   parking_hdg  mismatch  0.0%: mean    0.927 deg  P95    1.105
+  operation_start|warm_start_s=0   parking_hdg  mismatch  5.0%: mean    0.927 deg  P95    1.167
+  operation_start|warm_start_s=0   parking_hdg  mismatch 10.0%: mean    0.927 deg  P95    1.246
+  operation_start|warm_start_s=0   parking_hdg  mismatch 20.0%: mean    0.927 deg  P95    1.394
+  operation_start|warm_start_s=30  transit      mismatch  0.0%: mean    6.692 mm  P95    9.480
+  operation_start|warm_start_s=30  transit      mismatch  5.0%: mean   34.185 mm  P95   42.185
+  operation_start|warm_start_s=30  transit      mismatch 10.0%: mean   66.305 mm  P95   75.747
+  operation_start|warm_start_s=30  transit      mismatch 20.0%: mean  126.391 mm  P95  139.065
+  operation_start|warm_start_s=30  turn         mismatch  0.0%: mean    0.942 deg  P95    1.121
+  operation_start|warm_start_s=30  turn         mismatch  5.0%: mean    0.942 deg  P95    1.121
+  operation_start|warm_start_s=30  turn         mismatch 10.0%: mean    0.942 deg  P95    1.121
+  operation_start|warm_start_s=30  turn         mismatch 20.0%: mean    0.942 deg  P95    1.121
+  operation_start|warm_start_s=30  tracking     mismatch  0.0%: mean    7.500 mm  P95   14.175
+  operation_start|warm_start_s=30  tracking     mismatch  5.0%: mean   26.645 mm  P95   39.833
+  operation_start|warm_start_s=30  tracking     mismatch 10.0%: mean   52.097 mm  P95   65.741
+  operation_start|warm_start_s=30  tracking     mismatch 20.0%: mean   99.528 mm  P95  115.121
+  operation_start|warm_start_s=30  parking_pos  mismatch  0.0%: mean    5.340 mm  P95    6.356
+  operation_start|warm_start_s=30  parking_pos  mismatch  5.0%: mean    9.641 mm  P95   11.660
+  operation_start|warm_start_s=30  parking_pos  mismatch 10.0%: mean   16.640 mm  P95   18.751
+  operation_start|warm_start_s=30  parking_pos  mismatch 20.0%: mean   30.626 mm  P95   33.177
+  operation_start|warm_start_s=30  parking_hdg  mismatch  0.0%: mean    0.798 deg  P95    1.035
+  operation_start|warm_start_s=30  parking_hdg  mismatch  5.0%: mean    0.799 deg  P95    1.075
+  operation_start|warm_start_s=30  parking_hdg  mismatch 10.0%: mean    0.799 deg  P95    1.155
+  operation_start|warm_start_s=30  parking_hdg  mismatch 20.0%: mean    0.800 deg  P95    1.302
+  operation_start|warm_start_s=150 transit      mismatch  0.0%: mean   21.926 mm  P95   40.058
+  operation_start|warm_start_s=150 transit      mismatch  5.0%: mean   35.365 mm  P95   71.776
+  operation_start|warm_start_s=150 transit      mismatch 10.0%: mean   66.523 mm  P95  104.011
+  operation_start|warm_start_s=150 transit      mismatch 20.0%: mean  126.946 mm  P95  165.399
+  operation_start|warm_start_s=150 turn         mismatch  0.0%: mean    0.948 deg  P95    1.125
+  operation_start|warm_start_s=150 turn         mismatch  5.0%: mean    0.948 deg  P95    1.125
+  operation_start|warm_start_s=150 turn         mismatch 10.0%: mean    0.948 deg  P95    1.125
+  operation_start|warm_start_s=150 turn         mismatch 20.0%: mean    0.948 deg  P95    1.125
+  operation_start|warm_start_s=150 tracking     mismatch  0.0%: mean   33.716 mm  P95   63.878
+  operation_start|warm_start_s=150 tracking     mismatch  5.0%: mean   38.946 mm  P95   86.086
+  operation_start|warm_start_s=150 tracking     mismatch 10.0%: mean   53.757 mm  P95  112.573
+  operation_start|warm_start_s=150 tracking     mismatch 20.0%: mean   99.825 mm  P95  160.150
+  operation_start|warm_start_s=150 parking_pos  mismatch  0.0%: mean   12.121 mm  P95   20.849
+  operation_start|warm_start_s=150 parking_pos  mismatch  5.0%: mean   14.191 mm  P95   26.508
+  operation_start|warm_start_s=150 parking_pos  mismatch 10.0%: mean   19.002 mm  P95   33.802
+  operation_start|warm_start_s=150 parking_pos  mismatch 20.0%: mean   31.627 mm  P95   47.865
+  operation_start|warm_start_s=150 parking_hdg  mismatch  0.0%: mean    0.402 deg  P95    0.925
+  operation_start|warm_start_s=150 parking_hdg  mismatch  5.0%: mean    0.404 deg  P95    0.937
+  operation_start|warm_start_s=150 parking_hdg  mismatch 10.0%: mean    0.418 deg  P95    1.002
+  operation_start|warm_start_s=150 parking_hdg  mismatch 20.0%: mean    0.468 deg  P95    1.148
+  operation_start|warm_start_s=300 transit      mismatch  0.0%: mean   42.417 mm  P95   79.405
+  operation_start|warm_start_s=300 transit      mismatch  5.0%: mean   49.194 mm  P95  108.224
+  operation_start|warm_start_s=300 transit      mismatch 10.0%: mean   68.621 mm  P95  142.207
+  operation_start|warm_start_s=300 transit      mismatch 20.0%: mean  127.661 mm  P95  203.212
+  operation_start|warm_start_s=300 turn         mismatch  0.0%: mean    0.949 deg  P95    1.124
+  operation_start|warm_start_s=300 turn         mismatch  5.0%: mean    0.949 deg  P95    1.124
+  operation_start|warm_start_s=300 turn         mismatch 10.0%: mean    0.949 deg  P95    1.124
+  operation_start|warm_start_s=300 turn         mismatch 20.0%: mean    0.949 deg  P95    1.124
+  operation_start|warm_start_s=300 tracking     mismatch  0.0%: mean   66.478 mm  P95  125.894
+  operation_start|warm_start_s=300 tracking     mismatch  5.0%: mean   69.294 mm  P95  143.739
+  operation_start|warm_start_s=300 tracking     mismatch 10.0%: mean   76.637 mm  P95  169.883
+  operation_start|warm_start_s=300 tracking     mismatch 20.0%: mean  103.866 mm  P95  219.872
+  operation_start|warm_start_s=300 parking_pos  mismatch  0.0%: mean   22.208 mm  P95   40.650
+  operation_start|warm_start_s=300 parking_pos  mismatch  5.0%: mean   23.403 mm  P95   45.103
+  operation_start|warm_start_s=300 parking_pos  mismatch 10.0%: mean   26.263 mm  P95   52.479
+  operation_start|warm_start_s=300 parking_pos  mismatch 20.0%: mean   35.197 mm  P95   66.647
+  operation_start|warm_start_s=300 parking_hdg  mismatch  0.0%: mean    0.696 deg  P95    1.507
+  operation_start|warm_start_s=300 parking_hdg  mismatch  5.0%: mean    0.698 deg  P95    1.524
+  operation_start|warm_start_s=300 parking_hdg  mismatch 10.0%: mean    0.705 deg  P95    1.539
+  operation_start|warm_start_s=300 parking_hdg  mismatch 20.0%: mean    0.730 deg  P95    1.648
+  operation_start|warm_start_s=600 transit      mismatch  0.0%: mean   83.864 mm  P95  158.176
+  operation_start|warm_start_s=600 transit      mismatch  5.0%: mean   87.455 mm  P95  181.824
+  operation_start|warm_start_s=600 transit      mismatch 10.0%: mean   96.969 mm  P95  216.011
+  operation_start|warm_start_s=600 transit      mismatch 20.0%: mean  132.851 mm  P95  281.177
+  operation_start|warm_start_s=600 turn         mismatch  0.0%: mean    0.950 deg  P95    1.121
+  operation_start|warm_start_s=600 turn         mismatch  5.0%: mean    0.950 deg  P95    1.121
+  operation_start|warm_start_s=600 turn         mismatch 10.0%: mean    0.950 deg  P95    1.121
+  operation_start|warm_start_s=600 turn         mismatch 20.0%: mean    0.950 deg  P95    1.121
+  operation_start|warm_start_s=600 tracking     mismatch  0.0%: mean  131.927 mm  P95  249.516
+  operation_start|warm_start_s=600 tracking     mismatch  5.0%: mean  133.508 mm  P95  258.252
+  operation_start|warm_start_s=600 tracking     mismatch 10.0%: mean  137.346 mm  P95  285.534
+  operation_start|warm_start_s=600 tracking     mismatch 20.0%: mean  150.750 mm  P95  335.416
+  operation_start|warm_start_s=600 parking_pos  mismatch  0.0%: mean   43.006 mm  P95   80.418
+  operation_start|warm_start_s=600 parking_pos  mismatch  5.0%: mean   43.692 mm  P95   82.124
+  operation_start|warm_start_s=600 parking_pos  mismatch 10.0%: mean   45.287 mm  P95   89.795
+  operation_start|warm_start_s=600 parking_pos  mismatch 20.0%: mean   50.356 mm  P95  104.198
+  operation_start|warm_start_s=600 parking_hdg  mismatch  0.0%: mean    1.812 deg  P95    3.930
+  operation_start|warm_start_s=600 parking_hdg  mismatch  5.0%: mean    1.813 deg  P95    3.921
+  operation_start|warm_start_s=600 parking_hdg  mismatch 10.0%: mean    1.817 deg  P95    3.908
+  operation_start|warm_start_s=600 parking_hdg  mismatch 20.0%: mean    1.830 deg  P95    3.938
+
+Sobol at warm start, N=512, R=8
+  task_start|warm_start_s=0        transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.000  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  task_start|warm_start_s=0        turn         noise=0.985  S1 J/M/B/T=-5.264/+4.698/-12.857/-1.247  ST=0.669/0.070/0.380/-0.069  sumS1=-14.669
+  task_start|warm_start_s=0        tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.992/+0.006/+0.002  ST=-0.000/0.994/0.007/0.000  sumS1=0.999
+  task_start|warm_start_s=0        parking_pos  noise=0.000  S1 J/M/B/T=+0.000/+0.994/+0.003/+0.000  ST=0.000/0.995/0.004/0.000  sumS1=0.998
+  task_start|warm_start_s=0        parking_hdg  noise=0.301  S1 J/M/B/T=-0.002/+0.944/+0.131/+0.021  ST=0.005/0.968/-0.002/0.012  sumS1=1.093
+  task_start|warm_start_s=150      transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.000  ST=-0.000/0.992/0.007/0.000  sumS1=0.996
+  task_start|warm_start_s=150      turn         noise=0.980  S1 J/M/B/T=+5.771/+2.112/+3.653/+16.647  ST=0.326/-0.241/0.330/-0.585  sumS1=28.184
+  task_start|warm_start_s=150      tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.992/+0.006/+0.002  ST=-0.000/0.994/0.007/0.000  sumS1=1.000
+  task_start|warm_start_s=150      parking_pos  noise=0.000  S1 J/M/B/T=-0.001/+0.994/+0.003/-0.001  ST=-0.000/0.995/0.004/0.000  sumS1=0.996
+  task_start|warm_start_s=150      parking_hdg  noise=0.292  S1 J/M/B/T=+0.014/+1.004/+0.028/+0.059  ST=0.008/0.953/-0.001/0.015  sumS1=1.105
+  task_start|warm_start_s=600      transit      noise=0.000  S1 J/M/B/T=-0.000/+0.989/+0.006/+0.002  ST=-0.000/0.991/0.007/0.001  sumS1=0.996
+  task_start|warm_start_s=600      turn         noise=0.978  S1 J/M/B/T=+10.831/+3.359/+6.167/+3.702  ST=0.762/0.016/0.467/0.495  sumS1=24.060
+  task_start|warm_start_s=600      tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.991/+0.006/+0.003  ST=-0.000/0.993/0.007/0.002  sumS1=1.000
+  task_start|warm_start_s=600      parking_pos  noise=0.000  S1 J/M/B/T=-0.001/+0.992/+0.003/+0.001  ST=0.000/0.994/0.004/0.001  sumS1=0.995
+  task_start|warm_start_s=600      parking_hdg  noise=0.286  S1 J/M/B/T=-0.005/+1.024/+0.034/+0.059  ST=0.004/0.973/0.000/0.012  sumS1=1.111
+  operation_start|warm_start_s=0   transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.000  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  operation_start|warm_start_s=0   turn         noise=0.985  S1 J/M/B/T=-5.264/+4.698/-12.857/-1.247  ST=0.669/0.070/0.380/-0.069  sumS1=-14.669
+  operation_start|warm_start_s=0   tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.992/+0.006/+0.002  ST=-0.000/0.994/0.007/0.000  sumS1=0.999
+  operation_start|warm_start_s=0   parking_pos  noise=0.000  S1 J/M/B/T=+0.000/+0.994/+0.003/+0.000  ST=0.000/0.995/0.004/0.000  sumS1=0.998
+  operation_start|warm_start_s=0   parking_hdg  noise=0.307  S1 J/M/B/T=-0.027/+0.913/+0.111/+0.013  ST=0.003/0.972/-0.004/0.001  sumS1=1.010
+  operation_start|warm_start_s=150 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.941/+0.005/+0.016  ST=-0.000/1.003/0.006/0.071  sumS1=0.962
+  operation_start|warm_start_s=150 turn         noise=0.980  S1 J/M/B/T=+5.771/+2.112/+3.653/+16.647  ST=0.326/-0.241/0.330/-0.585  sumS1=28.184
+  operation_start|warm_start_s=150 tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.819/+0.004/+0.038  ST=-0.000/0.977/0.004/0.189  sumS1=0.862
+  operation_start|warm_start_s=150 parking_pos  noise=0.000  S1 J/M/B/T=-0.000/+0.791/+0.002/+0.080  ST=0.000/0.948/0.003/0.225  sumS1=0.872
+  operation_start|warm_start_s=150 parking_hdg  noise=0.149  S1 J/M/B/T=+0.011/+0.106/+0.018/+0.629  ST=0.004/0.327/0.001/0.895  sumS1=0.764
+  operation_start|warm_start_s=600 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.668/+0.001/+0.180  ST=-0.000/0.837/0.002/0.341  sumS1=0.849
+  operation_start|warm_start_s=600 turn         noise=0.978  S1 J/M/B/T=+10.831/+3.359/+6.167/+3.702  ST=0.762/0.016/0.467/0.495  sumS1=24.060
+  operation_start|warm_start_s=600 tracking     noise=0.000  S1 J/M/B/T=+0.000/+0.387/+0.001/+0.563  ST=0.000/0.444/0.001/0.616  sumS1=0.951
+  operation_start|warm_start_s=600 parking_pos  noise=0.000  S1 J/M/B/T=+0.000/+0.300/+0.000/+0.656  ST=0.000/0.352/0.001/0.703  sumS1=0.957
+  operation_start|warm_start_s=600 parking_hdg  noise=0.010  S1 J/M/B/T=-0.002/+0.004/-0.009/+0.976  ST=0.000/0.022/0.000/0.994  sumS1=0.970

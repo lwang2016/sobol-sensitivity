@@ -1,0 +1,52 @@
+  Sobol transit    noise=0.000  S1 J/M/B/T=-0.000/+0.999/-0.000/-0.000  ST=0.000/0.999/0.000/0.000  sumS1=0.998
+  Sobol tracking   noise=0.000  S1 J/M/B/T=-0.000/+0.995/-0.000/-0.003  ST=0.000/0.996/0.000/0.001  sumS1=0.992
+  Sobol turn       noise=0.983  S1 J/M/B/T=-3.523/-1.743/-4.247/-2.834  ST=0.771/0.081/0.437/0.016  sumS1=-12.346
+  transit    mismatch  0.0%: mean    4.704 mm  P95    4.980
+  transit    mismatch  2.5%: mean   18.774 mm  P95   19.302
+  transit    mismatch  5.0%: mean   36.214 mm  P95   36.744
+  transit    mismatch  7.5%: mean   53.419 mm  P95   53.948
+  transit    mismatch 10.0%: mean   70.260 mm  P95   70.790
+  transit    mismatch 15.0%: mean  102.810 mm  P95  103.339
+  transit    mismatch 20.0%: mean  133.914 mm  P95  134.443
+  tracking   mismatch  0.0%: mean    0.924 mm  P95    1.809
+  tracking   mismatch  2.5%: mean   14.302 mm  P95   16.030
+  tracking   mismatch  5.0%: mean   28.276 mm  P95   30.005
+  tracking   mismatch  7.5%: mean   41.913 mm  P95   43.642
+  tracking   mismatch 10.0%: mean   55.224 mm  P95   56.953
+  tracking   mismatch 15.0%: mean   80.915 mm  P95   82.645
+  tracking   mismatch 20.0%: mean  105.432 mm  P95  107.160
+  turn       mismatch  0.0%: mean    0.948 deg  P95    1.127
+  turn       mismatch  2.5%: mean    0.948 deg  P95    1.127
+  turn       mismatch  5.0%: mean    0.948 deg  P95    1.127
+  turn       mismatch  7.5%: mean    0.948 deg  P95    1.127
+  turn       mismatch 10.0%: mean    0.948 deg  P95    1.127
+  turn       mismatch 15.0%: mean    0.948 deg  P95    1.127
+  turn       mismatch 20.0%: mean    0.948 deg  P95    1.127
+  transit    pd_original  mismatch  0.0%: mean    4.704 mm
+  transit    pd_original  mismatch  5.0%: mean   36.214 mm
+  transit    pd_original  mismatch 10.0%: mean   70.260 mm
+  transit    pd_original  mismatch 20.0%: mean  133.914 mm
+  transit    pid_ki1      mismatch  0.0%: mean    4.700 mm
+  transit    pid_ki1      mismatch  5.0%: mean   13.483 mm
+  transit    pid_ki1      mismatch 10.0%: mean   25.118 mm
+  transit    pid_ki1      mismatch 20.0%: mean   47.349 mm
+  transit    pid_ki5      mismatch  0.0%: mean    4.699 mm
+  transit    pid_ki5      mismatch  5.0%: mean    5.284 mm
+  transit    pid_ki5      mismatch 10.0%: mean    6.659 mm
+  transit    pid_ki5      mismatch 20.0%: mean   10.161 mm
+  transit    feedforward residual 1.0%: mean    8.704 mm
+  transit    feedforward residual 2.0%: mean   15.316 mm
+  tracking   pd_original  mismatch  0.0%: mean    0.924 mm
+  tracking   pd_original  mismatch  5.0%: mean   28.276 mm
+  tracking   pd_original  mismatch 10.0%: mean   55.224 mm
+  tracking   pd_original  mismatch 20.0%: mean  105.432 mm
+  tracking   pid_ki1      mismatch  0.0%: mean    0.959 mm
+  tracking   pid_ki1      mismatch  5.0%: mean    3.680 mm
+  tracking   pid_ki1      mismatch 10.0%: mean    6.817 mm
+  tracking   pid_ki1      mismatch 20.0%: mean   12.682 mm
+  tracking   pid_ki5      mismatch  0.0%: mean    0.963 mm
+  tracking   pid_ki5      mismatch  5.0%: mean    1.227 mm
+  tracking   pid_ki5      mismatch 10.0%: mean    1.856 mm
+  tracking   pid_ki5      mismatch 20.0%: mean    3.154 mm
+  tracking   feedforward residual 1.0%: mean    5.752 mm
+  tracking   feedforward residual 2.0%: mean   11.466 mm

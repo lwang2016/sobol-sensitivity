@@ -1,0 +1,201 @@
+{
+  "scenario": "C_Battery_Sag",
+  "total_files": 3,
+  "total_samples": 58093,
+  "total_duration_sec": 900.6449819110001,
+  "sag_slopes_V_per_sec": [
+    -0.003495920463562496,
+    -0.00028080796533174813
+  ],
+  "residual_noise_V": [
+    0.05330580951943084,
+    0.012991942921495296
+  ],
+  "parameter_summary_scope": "constant logged command only; residuals are not isolated white noise",
+  "per_file": [
+    {
+      "label": "ResearchLogger_C1_Full_Charge.csv",
+      "experiment": "C1_Full_Charge",
+      "commanded_power_L": "0.5",
+      "commanded_power_R": "0.3",
+      "duration_sec": 300.037465106,
+      "n_samples": 19224,
+      "commanded_power_varies": false,
+      "voltage_start_V": 13.6553,
+      "voltage_end_V": 12.6767,
+      "voltage_mean_V": 13.110328755722014,
+      "voltage_std_V": 0.30725855058772833,
+      "voltage_min_V": 12.642,
+      "voltage_max_V": 13.835,
+      "voltage_drop_V": 0.9786000000000001,
+      "voltage_drop_pct": 7.166448192276992,
+      "sag_rate_mV_per_min": 195.6955608169009,
+      "quarters": [
+        {
+          "quarter": "Q1 (0-25%)",
+          "time_range_sec": "0-75",
+          "mean_V": 13.546216199246548,
+          "std_V": 0.13261096324776117,
+          "min_V": 13.297,
+          "max_V": 13.835
+        },
+        {
+          "quarter": "Q2 (25-50%)",
+          "time_range_sec": "75-150",
+          "mean_V": 13.193043125,
+          "std_V": 0.08127959983026302,
+          "min_V": 13.04,
+          "max_V": 13.372
+        },
+        {
+          "quarter": "Q3 (50-75%)",
+          "time_range_sec": "150-225",
+          "mean_V": 12.949702034883721,
+          "std_V": 0.06196413705986348,
+          "min_V": 12.825,
+          "max_V": 13.092
+        },
+        {
+          "quarter": "Q4 (75-100%)",
+          "time_range_sec": "225-300",
+          "mean_V": 12.757094616977225,
+          "std_V": 0.052083679604728324,
+          "min_V": 12.642,
+          "max_V": 12.865
+        }
+      ],
+      "trend_slope_V_per_sec": -0.003495920463562496,
+      "residual_std_V": 0.05330580951943084,
+      "residual_p95_V": 0.10001097298670884,
+      "residual_interpretation": "deviations from a linear trend, including load changes and nonlinear discharge; not isolated white voltage noise",
+      "total_distance_mm": 74197.07706812539,
+      "heading_start_rad": 0.0225032866001129,
+      "heading_end_rad": 0.7381352782249451,
+      "heading_total_change_deg": 35321.00269280459,
+      "pinpoint_motion_valid": true
+    },
+    {
+      "label": "ResearchLogger_C_2_Partial_Charge.csv",
+      "experiment": "C_2_Partial_Charge",
+      "commanded_power_L": "0.5",
+      "commanded_power_R": "0.3",
+      "duration_sec": 300.193991246,
+      "n_samples": 19773,
+      "commanded_power_varies": false,
+      "voltage_start_V": 11.803300000000002,
+      "voltage_end_V": 11.806650000000001,
+      "voltage_mean_V": 11.849778738684064,
+      "voltage_std_V": 0.027588701451306447,
+      "voltage_min_V": 11.58,
+      "voltage_max_V": 11.947,
+      "voltage_drop_V": -0.003349999999999298,
+      "voltage_drop_pct": -0.02838189319935355,
+      "sag_rate_mV_per_min": -0.6695670328565783,
+      "quarters": [
+        {
+          "quarter": "Q1 (0-25%)",
+          "time_range_sec": "0-75",
+          "mean_V": 11.885697941888619,
+          "std_V": 0.021057124823986688,
+          "min_V": 11.58,
+          "max_V": 11.947
+        },
+        {
+          "quarter": "Q2 (25-50%)",
+          "time_range_sec": "75-150",
+          "mean_V": 11.853675507333735,
+          "std_V": 0.010855184475946432,
+          "min_V": 11.816,
+          "max_V": 11.89
+        },
+        {
+          "quarter": "Q3 (50-75%)",
+          "time_range_sec": "150-225",
+          "mean_V": 11.837698922545233,
+          "std_V": 0.011193425017780907,
+          "min_V": 11.799,
+          "max_V": 11.877
+        },
+        {
+          "quarter": "Q4 (75-100%)",
+          "time_range_sec": "225-300",
+          "mean_V": 11.82173785815891,
+          "std_V": 0.010975465767624372,
+          "min_V": 11.781,
+          "max_V": 11.855
+        }
+      ],
+      "trend_slope_V_per_sec": -0.00028080796533174813,
+      "residual_std_V": 0.012991942921495296,
+      "residual_p95_V": 0.024413999836150065,
+      "residual_interpretation": "deviations from a linear trend, including load changes and nonlinear discharge; not isolated white voltage noise",
+      "total_distance_mm": 145061.26064621832,
+      "heading_start_rad": 0.0682213976979255,
+      "heading_end_rad": 0.0682213976979255,
+      "heading_total_change_deg": 0.0,
+      "pinpoint_motion_valid": false,
+      "pinpoint_note": "heading constant while position changes: Pinpoint distance/heading invalid; voltage unaffected"
+    },
+    {
+      "label": "ResearchLogger_C_3_Transient_Load.csv",
+      "experiment": "C_3_Transient_Load",
+      "commanded_power_L": "0.3",
+      "commanded_power_R": "0.3",
+      "duration_sec": 300.413525559,
+      "n_samples": 19096,
+      "commanded_power_varies": true,
+      "voltage_start_V": 12.759150000000002,
+      "voltage_end_V": 12.15985,
+      "voltage_mean_V": 12.217292574361124,
+      "voltage_std_V": 0.26779505869959863,
+      "voltage_min_V": 11.445,
+      "voltage_max_V": 12.86,
+      "voltage_drop_V": 0.5993000000000013,
+      "voltage_drop_pct": 4.697021353303326,
+      "sag_rate_mV_per_min": 119.69501018001958,
+      "quarters": [
+        {
+          "quarter": "Q1 (0-25%)",
+          "time_range_sec": "0-75",
+          "mean_V": 12.485629504741835,
+          "std_V": 0.22315798326312342,
+          "min_V": 11.812,
+          "max_V": 12.86
+        },
+        {
+          "quarter": "Q2 (25-50%)",
+          "time_range_sec": "75-150",
+          "mean_V": 12.276171643349342,
+          "std_V": 0.18535509419397056,
+          "min_V": 11.637,
+          "max_V": 12.603
+        },
+        {
+          "quarter": "Q3 (50-75%)",
+          "time_range_sec": "150-225",
+          "mean_V": 12.109308014228919,
+          "std_V": 0.18326387464859173,
+          "min_V": 11.545,
+          "max_V": 12.432
+        },
+        {
+          "quarter": "Q4 (75-100%)",
+          "time_range_sec": "225-300",
+          "mean_V": 12.00002885218482,
+          "std_V": 0.18761082334628568,
+          "min_V": 11.445,
+          "max_V": 12.305
+        }
+      ],
+      "trend_slope_V_per_sec": -0.0021759919591593543,
+      "residual_std_V": 0.19004872765722497,
+      "residual_p95_V": 0.26147602792214064,
+      "residual_interpretation": "deviations from a linear trend, including load changes and nonlinear discharge; not isolated white voltage noise",
+      "total_distance_mm": 132538.5384505501,
+      "heading_start_rad": 0.0140255093574523,
+      "heading_end_rad": 0.0682213976979255,
+      "heading_total_change_deg": 42843.10519566879,
+      "pinpoint_motion_valid": true
+    }
+  ]
+}

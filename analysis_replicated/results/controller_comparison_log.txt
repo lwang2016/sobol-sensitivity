@@ -1,0 +1,60 @@
+transit
+  pd_original  mismatch  0.0%: mean    4.830 mm  P95    5.196
+  pd_original  mismatch  5.0%: mean   34.190 mm  P95   37.339
+  pd_original  mismatch 10.0%: mean   66.288 mm  P95   71.304
+  pd_original  mismatch 20.0%: mean  126.321 mm  P95  134.963
+  pid_ki1      mismatch  0.0%: mean    4.850 mm  P95    5.229
+  pid_ki1      mismatch  5.0%: mean   12.797 mm  P95   14.562
+  pid_ki1      mismatch 10.0%: mean   23.704 mm  P95   25.574
+  pid_ki1      mismatch 20.0%: mean   44.614 mm  P95   46.557
+  pid_ki5      mismatch  0.0%: mean    4.861 mm  P95    5.248
+  pid_ki5      mismatch  5.0%: mean    5.339 mm  P95    6.329
+  pid_ki5      mismatch 10.0%: mean    6.528 mm  P95    7.928
+  pid_ki5      mismatch 20.0%: mean    9.714 mm  P95   11.435
+  feedforward  residual 1.0%: mean    8.376 mm  P95    9.976  (any original mismatch)
+  feedforward  residual 2.0%: mean   14.530 mm  P95   16.544  (any original mismatch)
+tracking
+  pd_original  mismatch  0.0%: mean    4.734 mm  P95    8.931
+  pd_original  mismatch  5.0%: mean   26.692 mm  P95   35.315
+  pd_original  mismatch 10.0%: mean   52.152 mm  P95   61.774
+  pd_original  mismatch 20.0%: mean   99.603 mm  P95  111.676
+  pid_ki1      mismatch  0.0%: mean    4.934 mm  P95    9.315
+  pid_ki1      mismatch  5.0%: mean    5.766 mm  P95   11.709
+  pid_ki1      mismatch 10.0%: mean    8.135 mm  P95   14.598
+  pid_ki1      mismatch 20.0%: mean   13.594 mm  P95   20.115
+  pid_ki5      mismatch  0.0%: mean    4.955 mm  P95    9.343
+  pid_ki5      mismatch  5.0%: mean    5.010 mm  P95    9.412
+  pid_ki5      mismatch 10.0%: mean    5.147 mm  P95    9.738
+  pid_ki5      mismatch 20.0%: mean    5.618 mm  P95   10.769
+  feedforward  residual 1.0%: mean    6.386 mm  P95   13.795  (any original mismatch)
+  feedforward  residual 2.0%: mean   10.955 mm  P95   19.070  (any original mismatch)
+parking_pos
+  pd_original  mismatch  0.0%: mean    4.756 mm  P95    5.046
+  pd_original  mismatch  5.0%: mean    9.338 mm  P95   10.763
+  pd_original  mismatch 10.0%: mean   16.481 mm  P95   18.301
+  pd_original  mismatch 20.0%: mean   30.557 mm  P95   33.013
+  pid_ki1      mismatch  0.0%: mean    4.766 mm  P95    5.063
+  pid_ki1      mismatch  5.0%: mean    5.926 mm  P95    8.221
+  pid_ki1      mismatch 10.0%: mean    8.878 mm  P95   11.845
+  pid_ki1      mismatch 20.0%: mean   15.639 mm  P95   18.925
+  pid_ki5      mismatch  0.0%: mean    4.769 mm  P95    5.069
+  pid_ki5      mismatch  5.0%: mean    5.256 mm  P95    7.953
+  pid_ki5      mismatch 10.0%: mean    7.235 mm  P95   10.970
+  pid_ki5      mismatch 20.0%: mean   12.676 mm  P95   16.747
+  feedforward  residual 1.0%: mean    5.018 mm  P95    5.627  (any original mismatch)
+  feedforward  residual 2.0%: mean    5.741 mm  P95    6.674  (any original mismatch)
+parking_hdg
+  pd_original  mismatch  0.0%: mean    0.744 deg  P95    1.018
+  pd_original  mismatch  5.0%: mean    0.744 deg  P95    1.053
+  pd_original  mismatch 10.0%: mean    0.745 deg  P95    1.130
+  pd_original  mismatch 20.0%: mean    0.746 deg  P95    1.276
+  pid_ki1      mismatch  0.0%: mean    0.740 deg  P95    1.018
+  pid_ki1      mismatch  5.0%: mean    0.740 deg  P95    1.173
+  pid_ki1      mismatch 10.0%: mean    0.742 deg  P95    1.375
+  pid_ki1      mismatch 20.0%: mean    0.836 deg  P95    1.750
+  pid_ki5      mismatch  0.0%: mean    0.740 deg  P95    1.017
+  pid_ki5      mismatch  5.0%: mean    0.740 deg  P95    1.020
+  pid_ki5      mismatch 10.0%: mean    0.740 deg  P95    1.023
+  pid_ki5      mismatch 20.0%: mean    0.740 deg  P95    1.047
+  feedforward  residual 1.0%: mean    0.744 deg  P95    1.016  (any original mismatch)
+  feedforward  residual 2.0%: mean    0.744 deg  P95    1.024  (any original mismatch)

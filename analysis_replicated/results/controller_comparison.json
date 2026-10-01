@@ -1,0 +1,525 @@
+{
+  "method": "Which fix restores accuracy with mismatched motors: heading feedback alone, integral action, or feedforward compensation.\n\nControllers compared at each mismatch level (jitter, battery and thermal severity\ndrawn uniformly; same draws and seeds everywhere, i.e. common random numbers):\n  pd_original        the published controller (PD heading correction in drive)\n  pid_ki1, pid_ki5   the same plus an integral term (controller_variants.py)\n  feedforward        per-motor gain compensation, as the shooter does with kV_Left/kV_Right.\n                     In this model that is equivalent to leaving only the calibration\n                     residual, so it is evaluated as the original controller at 1% and 2% mismatch.\n\nOutputs: results/controller_comparison.json and results/controller_comparison_log.txt.",
+  "draws": 1024,
+  "replicates": 4,
+  "provenance": {
+    "this_script_sha256": "71bde5e84eaa89ad3ec74e4c459fe581b4825dc4d1d55b7997565f59a18c9e1e",
+    "controller_variants_sha256": "94658d83cb24efdaf98b017c3830c245f65d93e529803c57a37b98b06b5142f5",
+    "forward_model_sha256": "55ba9d49e9df3ed961270bada139c649ea2166c57a069bbd38a5e2f12f809c27"
+  },
+  "results": {
+    "transit": {
+      "pd_original|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.829587218102942,
+        "median": 4.840000562483098,
+        "p90": 5.116886039985637,
+        "p95": 5.196095496028476,
+        "sd_across_conditions": 0.15970478621186296,
+        "sd_run_to_run": 0.20622025103723166
+      },
+      "pd_original|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 34.19014845197793,
+        "median": 34.16628545966087,
+        "p90": 36.60311739519881,
+        "p95": 37.339148740572355,
+        "sd_across_conditions": 1.7906790026868857,
+        "sd_run_to_run": 0.2382956066352283
+      },
+      "pd_original|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 66.28764666781835,
+        "median": 66.17908394294932,
+        "p90": 70.3218428026037,
+        "p95": 71.30359041421566,
+        "sd_across_conditions": 2.9960478298898927,
+        "sd_run_to_run": 0.24199371825796548
+      },
+      "pd_original|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 126.32147611806803,
+        "median": 126.11189746867359,
+        "p90": 133.96180611522016,
+        "p95": 134.96303456183637,
+        "sd_across_conditions": 5.450788680679758,
+        "sd_run_to_run": 0.25295837180377667
+      },
+      "pid_ki1|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.850142263930731,
+        "median": 4.861597887304301,
+        "p90": 5.152398517821608,
+        "p95": 5.229358343380014,
+        "sd_across_conditions": 0.1739154237835151,
+        "sd_run_to_run": 0.1982224410643719
+      },
+      "pid_ki1|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 12.796938607680932,
+        "median": 12.807645630800272,
+        "p90": 14.318523016947964,
+        "p95": 14.56161264315455,
+        "sd_across_conditions": 1.1315101659387101,
+        "sd_run_to_run": 0.12266794587042361
+      },
+      "pid_ki1|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 23.70356903771789,
+        "median": 23.709663687466357,
+        "p90": 25.322864605851194,
+        "p95": 25.57426199854168,
+        "sd_across_conditions": 1.1969959829380161,
+        "sd_run_to_run": 0.11372482157592234
+      },
+      "pid_ki1|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 44.61382637457431,
+        "median": 44.60667938754085,
+        "p90": 46.293737242781845,
+        "p95": 46.55662062758586,
+        "sd_across_conditions": 1.2304802894865188,
+        "sd_run_to_run": 0.11984953088295815
+      },
+      "pid_ki5|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.860993702317174,
+        "median": 4.870480122221454,
+        "p90": 5.172561492308811,
+        "p95": 5.247521610695769,
+        "sd_across_conditions": 0.18135668766158414,
+        "sd_run_to_run": 0.19588687633864957
+      },
+      "pid_ki5|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 5.3385379840845095,
+        "median": 5.226935204921649,
+        "p90": 6.147502295643924,
+        "p95": 6.328630255439252,
+        "sd_across_conditions": 0.5406938104071415,
+        "sd_run_to_run": 0.18490550816247608
+      },
+      "pid_ki5|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 6.527946470549217,
+        "median": 6.483478447994683,
+        "p90": 7.707237967543979,
+        "p95": 7.928047261776958,
+        "sd_across_conditions": 0.8474255104109851,
+        "sd_run_to_run": 0.1559243351446676
+      },
+      "pid_ki5|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 9.713732676062516,
+        "median": 9.717520353622666,
+        "p90": 11.194466669891806,
+        "p95": 11.43532871564496,
+        "sd_across_conditions": 1.0901404476102559,
+        "sd_run_to_run": 0.11830540785480047
+      },
+      "feedforward|residual=1.0": {
+        "unit": "mm",
+        "mean": 8.37629890699421,
+        "median": 8.345137134983958,
+        "p90": 9.702805030103402,
+        "p95": 9.97646201837656,
+        "sd_across_conditions": 0.9509366062803533,
+        "sd_run_to_run": 0.2246617182949028
+      },
+      "feedforward|residual=2.0": {
+        "unit": "mm",
+        "mean": 14.530390367818795,
+        "median": 14.534232011065612,
+        "p90": 16.190393986153282,
+        "p95": 16.544451745855866,
+        "sd_across_conditions": 1.1869119173498777,
+        "sd_run_to_run": 0.23345717387764744
+      }
+    },
+    "tracking": {
+      "pd_original|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.734201726883961,
+        "median": 4.893145744812506,
+        "p90": 8.463759266384464,
+        "p95": 8.93056733106545,
+        "sd_across_conditions": 2.6912314239200823,
+        "sd_run_to_run": 0.10463557637114022
+      },
+      "pd_original|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 26.69193711967293,
+        "median": 26.635633570921335,
+        "p90": 34.11243226918303,
+        "p95": 35.31464494825023,
+        "sd_across_conditions": 5.527953087769498,
+        "sd_run_to_run": 0.10556500595453425
+      },
+      "pd_original|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 52.15212423066809,
+        "median": 52.13203424138207,
+        "p90": 60.194364059208176,
+        "p95": 61.77418191746768,
+        "sd_across_conditions": 5.8345230427028225,
+        "sd_run_to_run": 0.10681903707810705
+      },
+      "pd_original|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 99.60255248208009,
+        "median": 99.54132632503297,
+        "p90": 109.081183956884,
+        "p95": 111.67564905224393,
+        "sd_across_conditions": 6.8190089728702965,
+        "sd_run_to_run": 0.11128313184503837
+      },
+      "pid_ki1|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.933504572411841,
+        "median": 5.112251936394808,
+        "p90": 8.84086294991901,
+        "p95": 9.315016533360225,
+        "sd_across_conditions": 2.807222170600782,
+        "sd_run_to_run": 0.024051435402421155
+      },
+      "pid_ki1|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 5.7656789405773345,
+        "median": 4.997532788793224,
+        "p90": 10.518075423011684,
+        "p95": 11.70876869437199,
+        "sd_across_conditions": 2.9784626419544957,
+        "sd_run_to_run": 0.02536608740838304
+      },
+      "pid_ki1|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 8.13491583891604,
+        "median": 6.128485596488818,
+        "p90": 13.435924305549062,
+        "p95": 14.59848513166747,
+        "sd_across_conditions": 3.2703765100067104,
+        "sd_run_to_run": 0.026676276274364873
+      },
+      "pid_ki1|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 13.59412834091047,
+        "median": 11.66416844033003,
+        "p90": 18.95935038149287,
+        "p95": 20.11520649340586,
+        "sd_across_conditions": 3.3292545928076756,
+        "sd_run_to_run": 0.029636579566060747
+      },
+      "pid_ki5|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.954607519143795,
+        "median": 5.122792691114292,
+        "p90": 8.876807512391231,
+        "p95": 9.342943829920312,
+        "sd_across_conditions": 2.8194078183263174,
+        "sd_run_to_run": 0.008646122040729958
+      },
+      "pid_ki5|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 5.0099126453084875,
+        "median": 5.123717403907114,
+        "p90": 8.725894801042688,
+        "p95": 9.412232486827218,
+        "sd_across_conditions": 2.7639125253682666,
+        "sd_run_to_run": 0.009837893283957542
+      },
+      "pid_ki5|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 5.147280655896424,
+        "median": 5.149421302369147,
+        "p90": 8.818066734808049,
+        "p95": 9.737652744073994,
+        "sd_across_conditions": 2.698926385372447,
+        "sd_run_to_run": 0.011567675508193091
+      },
+      "pid_ki5|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 5.618035457531681,
+        "median": 5.119349630566434,
+        "p90": 9.616641680733299,
+        "p95": 10.768722641812333,
+        "sd_across_conditions": 2.6461289984809526,
+        "sd_run_to_run": 0.015148045955296546
+      },
+      "feedforward|residual=1.0": {
+        "unit": "mm",
+        "mean": 6.386172167501283,
+        "median": 5.516870607518039,
+        "p90": 12.657031438092567,
+        "p95": 13.795485847214058,
+        "sd_across_conditions": 4.273134498473336,
+        "sd_run_to_run": 0.1001822552722656
+      },
+      "feedforward|residual=2.0": {
+        "unit": "mm",
+        "mean": 10.955267002287066,
+        "median": 10.900016794580232,
+        "p90": 18.06900300652491,
+        "p95": 19.070240295400946,
+        "sd_across_conditions": 5.2289780980592875,
+        "sd_run_to_run": 0.1022345486131996
+      }
+    },
+    "parking_pos": {
+      "pd_original|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.756049992868148,
+        "median": 4.7619340176578415,
+        "p90": 5.002355712552667,
+        "p95": 5.046093229916617,
+        "sd_across_conditions": 0.11502920503744503,
+        "sd_run_to_run": 0.19696094771635364
+      },
+      "pd_original|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 9.338230287010962,
+        "median": 9.480744372931245,
+        "p90": 10.61431601244405,
+        "p95": 10.762815212843691,
+        "sd_across_conditions": 1.048558562493579,
+        "sd_run_to_run": 0.11480843793835206
+      },
+      "pd_original|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 16.480890914381913,
+        "median": 16.613362253559366,
+        "p90": 18.052138078385518,
+        "p95": 18.301191922303147,
+        "sd_across_conditions": 1.2405972676355603,
+        "sd_run_to_run": 0.09498284306427317
+      },
+      "pd_original|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 30.556996407939543,
+        "median": 30.651588220073023,
+        "p90": 32.6790451287793,
+        "p95": 33.013283647215346,
+        "sd_across_conditions": 1.5399320083906147,
+        "sd_run_to_run": 0.0930097976016304
+      },
+      "pid_ki1|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.766035387123589,
+        "median": 4.773307514366989,
+        "p90": 5.0142941053463215,
+        "p95": 5.0630127826229865,
+        "sd_across_conditions": 0.11969326957701747,
+        "sd_run_to_run": 0.19652702313409387
+      },
+      "pid_ki1|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 5.9259492868812735,
+        "median": 5.499021179683245,
+        "p90": 8.134092366235013,
+        "p95": 8.221244425985727,
+        "sd_across_conditions": 2.045051566136917,
+        "sd_run_to_run": 0.15052853503956068
+      },
+      "pid_ki1|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 8.877593578491577,
+        "median": 8.593523760585528,
+        "p90": 11.734000149528114,
+        "p95": 11.844767506253309,
+        "sd_across_conditions": 2.6730367912120347,
+        "sd_run_to_run": 0.1343990755024461
+      },
+      "pid_ki1|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 15.638570341704867,
+        "median": 15.51773266796993,
+        "p90": 18.80529467450826,
+        "p95": 18.92517896328526,
+        "sd_across_conditions": 2.95477727745521,
+        "sd_run_to_run": 0.14530812669228219
+      },
+      "pid_ki5|mismatch=0.0": {
+        "unit": "mm",
+        "mean": 4.769146898268527,
+        "median": 4.7762626043059075,
+        "p90": 5.018335123896136,
+        "p95": 5.069128047125056,
+        "sd_across_conditions": 0.1211693080062806,
+        "sd_run_to_run": 0.19631593136881714
+      },
+      "pid_ki5|mismatch=5.0": {
+        "unit": "mm",
+        "mean": 5.256037031015047,
+        "median": 4.7685472902197255,
+        "p90": 7.894557167623651,
+        "p95": 7.9531695744953,
+        "sd_across_conditions": 2.468792700146218,
+        "sd_run_to_run": 0.16490026535071606
+      },
+      "pid_ki5|mismatch=10.0": {
+        "unit": "mm",
+        "mean": 7.234855708262204,
+        "median": 6.925505978704466,
+        "p90": 10.895737139052958,
+        "p95": 10.96971513972749,
+        "sd_across_conditions": 3.4967130913296205,
+        "sd_run_to_run": 0.1482494430559203
+      },
+      "pid_ki5|mismatch=20.0": {
+        "unit": "mm",
+        "mean": 12.676318176171945,
+        "median": 12.499375969174578,
+        "p90": 16.658825334458847,
+        "p95": 16.747383842657594,
+        "sd_across_conditions": 3.807029642094299,
+        "sd_run_to_run": 0.17354965607052966
+      },
+      "feedforward|residual=1.0": {
+        "unit": "mm",
+        "mean": 5.018307776433401,
+        "median": 5.054510352100717,
+        "p90": 5.563749775890886,
+        "p95": 5.627129899495985,
+        "sd_across_conditions": 0.40166260090163236,
+        "sd_run_to_run": 0.1865181028232929
+      },
+      "feedforward|residual=2.0": {
+        "unit": "mm",
+        "mean": 5.741152970665372,
+        "median": 5.777453262685391,
+        "p90": 6.582278103557522,
+        "p95": 6.674470809838148,
+        "sd_across_conditions": 0.6823145955529677,
+        "sd_run_to_run": 0.16370786429988468
+      }
+    },
+    "parking_hdg": {
+      "pd_original|mismatch=0.0": {
+        "unit": "deg",
+        "mean": 0.7442428411545019,
+        "median": 0.7491145384042961,
+        "p90": 0.9655532457819704,
+        "p95": 1.0179903772946184,
+        "sd_across_conditions": 0.1308062886974022,
+        "sd_run_to_run": 0.12523217722062555
+      },
+      "pd_original|mismatch=5.0": {
+        "unit": "deg",
+        "mean": 0.7444830328819901,
+        "median": 0.7480815009380546,
+        "p90": 0.9857746973154472,
+        "p95": 1.052711062489844,
+        "sd_across_conditions": 0.15398162476714747,
+        "sd_run_to_run": 0.12490051134134827
+      },
+      "pd_original|mismatch=10.0": {
+        "unit": "deg",
+        "mean": 0.7448266061261353,
+        "median": 0.7448967612005303,
+        "p90": 1.0550108072449231,
+        "p95": 1.1303955178749974,
+        "sd_across_conditions": 0.20630872234504094,
+        "sd_run_to_run": 0.12427054793199438
+      },
+      "pd_original|mismatch=20.0": {
+        "unit": "deg",
+        "mean": 0.745821650753177,
+        "median": 0.7401108519631514,
+        "p90": 1.2021794487124269,
+        "p95": 1.275881249969607,
+        "sd_across_conditions": 0.33198983713581676,
+        "sd_run_to_run": 0.12287509586228054
+      },
+      "pid_ki1|mismatch=0.0": {
+        "unit": "deg",
+        "mean": 0.7398725272260401,
+        "median": 0.7447469594734197,
+        "p90": 0.9651399394720825,
+        "p95": 1.0175899540653544,
+        "sd_across_conditions": 0.13300110056430298,
+        "sd_run_to_run": 0.12518385801884824
+      },
+      "pid_ki1|mismatch=5.0": {
+        "unit": "deg",
+        "mean": 0.739958267730435,
+        "median": 0.7388583222631888,
+        "p90": 1.0991599801060414,
+        "p95": 1.173461012884835,
+        "sd_across_conditions": 0.25003677581249806,
+        "sd_run_to_run": 0.12470658057162202
+      },
+      "pid_ki1|mismatch=10.0": {
+        "unit": "deg",
+        "mean": 0.7417016847457834,
+        "median": 0.6852897567757609,
+        "p90": 1.3015625694181219,
+        "p95": 1.3747948588471415,
+        "sd_across_conditions": 0.4316999724507253,
+        "sd_run_to_run": 0.12369959949055341
+      },
+      "pid_ki1|mismatch=20.0": {
+        "unit": "deg",
+        "mean": 0.8364134203261986,
+        "median": 0.7582173596625734,
+        "p90": 1.6812585123901551,
+        "p95": 1.7498769823721108,
+        "sd_across_conditions": 0.7001877221795112,
+        "sd_run_to_run": 0.11918472283960832
+      },
+      "pid_ki5|mismatch=0.0": {
+        "unit": "deg",
+        "mean": 0.7398850185505286,
+        "median": 0.7455274848906548,
+        "p90": 0.9643113690976286,
+        "p95": 1.0172872621397198,
+        "sd_across_conditions": 0.13301652298815966,
+        "sd_run_to_run": 0.12521563671805533
+      },
+      "pid_ki5|mismatch=5.0": {
+        "unit": "deg",
+        "mean": 0.7399660087181699,
+        "median": 0.7449492993798077,
+        "p90": 0.965460450824406,
+        "p95": 1.019564218483446,
+        "sd_across_conditions": 0.13489335049147513,
+        "sd_run_to_run": 0.12522802303069533
+      },
+      "pid_ki5|mismatch=10.0": {
+        "unit": "deg",
+        "mean": 0.7400573961107668,
+        "median": 0.7438707750321567,
+        "p90": 0.9668311865075337,
+        "p95": 1.0233674587662458,
+        "sd_across_conditions": 0.13986533972073206,
+        "sd_run_to_run": 0.12521449297027812
+      },
+      "pid_ki5|mismatch=20.0": {
+        "unit": "deg",
+        "mean": 0.7402438184347142,
+        "median": 0.7419903736651592,
+        "p90": 0.9786616718310183,
+        "p95": 1.0465410059263984,
+        "sd_across_conditions": 0.15630733988333836,
+        "sd_run_to_run": 0.1252139431401134
+      },
+      "feedforward|residual=1.0": {
+        "unit": "deg",
+        "mean": 0.7442793307431289,
+        "median": 0.7491788030023324,
+        "p90": 0.9697450470969127,
+        "p95": 1.0164246248121236,
+        "sd_across_conditions": 0.13175919980581993,
+        "sd_run_to_run": 0.12520422287141325
+      },
+      "feedforward|residual=2.0": {
+        "unit": "deg",
+        "mean": 0.7443244250175262,
+        "median": 0.7468255006145113,
+        "p90": 0.9681297109524064,
+        "p95": 1.0237021753586126,
+        "sd_across_conditions": 0.13475703432412106,
+        "sd_run_to_run": 0.12514709530697454
+      }
+    }
+  },
+  "runtime_sec": 378.87239718437195
+}

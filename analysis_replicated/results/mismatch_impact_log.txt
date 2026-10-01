@@ -1,0 +1,56 @@
+transit|heading_bias=published
+  mismatch  0.0%: mean    4.830 mm  median    4.840  P95    5.196  SD across conditions   0.160  run-to-run SD   0.206
+  mismatch  2.5%: mean   17.775 mm  median   17.790  P95   19.962  SD across conditions   1.279  run-to-run SD   0.235
+  mismatch  5.0%: mean   34.190 mm  median   34.166  P95   37.339  SD across conditions   1.791  run-to-run SD   0.238
+  mismatch  7.5%: mean   50.407 mm  median   50.367  P95   54.469  SD across conditions   2.380  run-to-run SD   0.240
+  mismatch 10.0%: mean   66.288 mm  median   66.179  P95   71.304  SD across conditions   2.996  run-to-run SD   0.242
+  mismatch 15.0%: mean   96.987 mm  median   96.790  P95  103.813  SD across conditions   4.237  run-to-run SD   0.247
+  mismatch 20.0%: mean  126.321 mm  median  126.112  P95  134.963  SD across conditions   5.451  run-to-run SD   0.253
+tracking|heading_bias=published
+  mismatch  0.0%: mean    4.734 mm  median    4.893  P95    8.931  SD across conditions   2.691  run-to-run SD   0.105
+  mismatch  2.5%: mean   13.539 mm  median   13.606  P95   21.779  SD across conditions   5.374  run-to-run SD   0.104
+  mismatch  5.0%: mean   26.692 mm  median   26.636  P95   35.315  SD across conditions   5.528  run-to-run SD   0.106
+  mismatch  7.5%: mean   39.574 mm  median   39.422  P95   48.646  SD across conditions   5.662  run-to-run SD   0.106
+  mismatch 10.0%: mean   52.152 mm  median   52.132  P95   61.774  SD across conditions   5.835  run-to-run SD   0.107
+  mismatch 15.0%: mean   76.431 mm  median   76.551  P95   87.272  SD across conditions   6.279  run-to-run SD   0.109
+  mismatch 20.0%: mean   99.603 mm  median   99.541  P95  111.676  SD across conditions   6.819  run-to-run SD   0.111
+parking_pos|heading_bias=published
+  mismatch  0.0%: mean    4.756 mm  median    4.762  P95    5.046  SD across conditions   0.115  run-to-run SD   0.197
+  mismatch  2.5%: mean    6.230 mm  median    6.267  P95    7.288  SD across conditions   0.783  run-to-run SD   0.152
+  mismatch  5.0%: mean    9.338 mm  median    9.481  P95   10.763  SD across conditions   1.049  run-to-run SD   0.115
+  mismatch  7.5%: mean   12.868 mm  median   13.044  P95   14.505  SD across conditions   1.161  run-to-run SD   0.101
+  mismatch 10.0%: mean   16.481 mm  median   16.613  P95   18.301  SD across conditions   1.241  run-to-run SD   0.095
+  mismatch 15.0%: mean   23.636 mm  median   23.799  P95   25.768  SD across conditions   1.387  run-to-run SD   0.092
+  mismatch 20.0%: mean   30.557 mm  median   30.652  P95   33.013  SD across conditions   1.540  run-to-run SD   0.093
+parking_hdg|heading_bias=published
+  mismatch  0.0%: mean    0.744 deg  median    0.749  P95    1.018  SD across conditions   0.131  run-to-run SD   0.125
+  mismatch  2.5%: mean    0.744 deg  median    0.747  P95    1.027  SD across conditions   0.137  run-to-run SD   0.125
+  mismatch  5.0%: mean    0.744 deg  median    0.748  P95    1.053  SD across conditions   0.154  run-to-run SD   0.125
+  mismatch  7.5%: mean    0.745 deg  median    0.749  P95    1.091  SD across conditions   0.178  run-to-run SD   0.125
+  mismatch 10.0%: mean    0.745 deg  median    0.745  P95    1.130  SD across conditions   0.206  run-to-run SD   0.124
+  mismatch 15.0%: mean    0.745 deg  median    0.746  P95    1.205  SD across conditions   0.268  run-to-run SD   0.124
+  mismatch 20.0%: mean    0.746 deg  median    0.740  P95    1.276  SD across conditions   0.332  run-to-run SD   0.123
+turn|heading_bias=published
+  mismatch  0.0%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+  mismatch  2.5%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+  mismatch  5.0%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+  mismatch  7.5%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+  mismatch 10.0%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+  mismatch 15.0%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+  mismatch 20.0%: mean    0.928 deg  median    0.937  P95    1.108  SD across conditions   0.066  run-to-run SD   0.131
+parking_hdg|heading_bias=code_estimate_from_data
+  mismatch  0.0%: mean    0.909 deg  median    0.917  P95    1.089  SD across conditions   0.069  run-to-run SD   0.125
+  mismatch  2.5%: mean    0.909 deg  median    0.917  P95    1.106  SD across conditions   0.081  run-to-run SD   0.125
+  mismatch  5.0%: mean    0.909 deg  median    0.917  P95    1.147  SD across conditions   0.108  run-to-run SD   0.125
+  mismatch  7.5%: mean    0.909 deg  median    0.918  P95    1.187  SD across conditions   0.140  run-to-run SD   0.125
+  mismatch 10.0%: mean    0.909 deg  median    0.909  P95    1.226  SD across conditions   0.175  run-to-run SD   0.125
+  mismatch 15.0%: mean    0.909 deg  median    0.876  P95    1.302  SD across conditions   0.246  run-to-run SD   0.125
+  mismatch 20.0%: mean    0.910 deg  median    0.824  P95    1.373  SD across conditions   0.315  run-to-run SD   0.124
+turn|heading_bias=code_estimate_from_data
+  mismatch  0.0%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132
+  mismatch  2.5%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132
+  mismatch  5.0%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132
+  mismatch  7.5%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132
+  mismatch 10.0%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132
+  mismatch 15.0%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132
+  mismatch 20.0%: mean    0.944 deg  median    0.952  P95    1.122  SD across conditions   0.064  run-to-run SD   0.132

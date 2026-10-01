@@ -1,0 +1,33 @@
+Baseline: published constants, N=1024, R=16, 6144 samples x 16 runs per task
+  transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.005/-0.001  ST=0.000/0.992/0.007/0.000  sumS1=0.994  (61s)
+  turn         noise=0.977  S1 J/M/B/T=-1.865/-1.612/-1.603/-0.358  ST=0.590/0.071/0.136/0.354  sumS1=-5.438  (16s)
+  tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.977/+0.005/-0.008  ST=0.000/0.986/0.007/0.007  sumS1=0.975  (174s)
+  parking_pos  noise=0.000  S1 J/M/B/T=+0.000/+0.990/+0.003/-0.004  ST=0.000/0.992/0.004/0.001  sumS1=0.989  (118s)
+  parking_hdg  noise=0.240  S1 J/M/B/T=+0.004/+0.721/-0.025/+0.275  ST=0.003/0.722/0.001/0.274  sumS1=0.975  (120s)
+  parking_hdg  independent seeds: noise=0.238  S1 J/M/B/T=-0.007/+0.722/+0.013/+0.302  ST=0.004/0.717/0.004/0.268  sumS1=1.030
+
+Range sweep: N=512, R=8; common random numbers across configurations
+  motor +/-0.025 heading 0.0e+00 parking_hdg  noise=0.875  S1 J/M/B/T=-1.410/+0.228/+1.340/+0.367  ST=-0.008/0.973/-0.068/-0.117  sumS1=0.525
+  motor +/-0.025 heading 0.0e+00 transit      noise=0.001  S1 J/M/B/T=-0.001/+0.989/+0.006/+0.002  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  motor +/-0.025 heading 1.5e-04 parking_hdg  noise=0.845  S1 J/M/B/T=-0.947/-0.252/+0.876/+0.022  ST=0.046/0.810/-0.030/0.119  sumS1=-0.301
+  motor +/-0.025 heading 1.5e-04 transit      noise=0.001  S1 J/M/B/T=-0.001/+0.990/+0.006/+0.002  ST=-0.000/0.993/0.008/0.000  sumS1=0.998
+  motor +/-0.025 heading 7.5e-04 parking_hdg  noise=0.506  S1 J/M/B/T=-0.091/+0.037/-0.011/+0.890  ST=0.011/0.148/-0.001/0.857  sumS1=0.825
+  motor +/-0.025 heading 7.5e-04 transit      noise=0.001  S1 J/M/B/T=-0.001/+0.991/+0.006/+0.006  ST=-0.000/0.996/0.008/0.003  sumS1=1.002
+  motor +/-0.050 heading 0.0e+00 parking_hdg  noise=0.643  S1 J/M/B/T=-0.359/+0.806/+0.347/+0.080  ST=-0.000/1.007/-0.015/-0.030  sumS1=0.875
+  motor +/-0.050 heading 0.0e+00 transit      noise=0.000  S1 J/M/B/T=-0.001/+0.990/+0.006/+0.001  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  motor +/-0.050 heading 1.5e-04 parking_hdg  noise=0.624  S1 J/M/B/T=-0.277/+0.628/+0.277/+0.010  ST=0.015/0.959/-0.008/0.036  sumS1=0.638
+  motor +/-0.050 heading 1.5e-04 transit      noise=0.000  S1 J/M/B/T=-0.001/+0.990/+0.006/+0.001  ST=-0.000/0.992/0.008/0.000  sumS1=0.997
+  motor +/-0.050 heading 7.5e-04 parking_hdg  noise=0.415  S1 J/M/B/T=-0.058/+0.337/-0.005/+0.622  ST=0.008/0.410/-0.001/0.594  sumS1=0.896
+  motor +/-0.050 heading 7.5e-04 transit      noise=0.000  S1 J/M/B/T=-0.001/+0.992/+0.006/+0.003  ST=-0.000/0.994/0.008/0.001  sumS1=1.000
+  motor +/-0.075 heading 0.0e+00 parking_hdg  noise=0.446  S1 J/M/B/T=-0.161/+0.914/+0.156/+0.030  ST=0.001/1.010/-0.005/-0.014  sumS1=0.939
+  motor +/-0.075 heading 0.0e+00 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.000  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  motor +/-0.075 heading 1.5e-04 parking_hdg  noise=0.435  S1 J/M/B/T=-0.125/+0.830/+0.133/+0.007  ST=0.008/0.989/-0.003/0.016  sumS1=0.844
+  motor +/-0.075 heading 1.5e-04 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.001  ST=-0.000/0.992/0.008/0.000  sumS1=0.997
+  motor +/-0.075 heading 7.5e-04 parking_hdg  noise=0.319  S1 J/M/B/T=-0.034/+0.564/-0.001/+0.418  ST=0.006/0.611/-0.000/0.393  sumS1=0.947
+  motor +/-0.075 heading 7.5e-04 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.991/+0.006/+0.002  ST=-0.000/0.993/0.008/0.000  sumS1=0.999
+  motor +/-0.100 heading 0.0e+00 parking_hdg  noise=0.312  S1 J/M/B/T=-0.092/+0.952/+0.088/+0.014  ST=0.001/1.010/-0.002/-0.008  sumS1=0.963
+  motor +/-0.100 heading 0.0e+00 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.000  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  motor +/-0.100 heading 1.5e-04 parking_hdg  noise=0.305  S1 J/M/B/T=-0.070/+0.904/+0.079/+0.005  ST=0.005/0.999/-0.001/0.009  sumS1=0.917
+  motor +/-0.100 heading 1.5e-04 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.990/+0.006/+0.000  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  motor +/-0.100 heading 7.5e-04 parking_hdg  noise=0.241  S1 J/M/B/T=-0.020/+0.706/+0.001/+0.289  ST=0.004/0.737/0.000/0.267  sumS1=0.977
+  motor +/-0.100 heading 7.5e-04 transit      noise=0.000  S1 J/M/B/T=-0.000/+0.991/+0.006/+0.001  ST=-0.000/0.993/0.008/0.000  sumS1=0.998

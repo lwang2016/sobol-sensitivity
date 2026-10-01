@@ -1,0 +1,60 @@
+  cv=0.004   transit      mismatch  0.0%: mean    4.701 mm  P95    4.978  run-to-run SD 0.2096
+  cv=0.004   transit      mismatch  5.0%: mean   34.174 mm  P95   36.545  run-to-run SD 0.1224
+  cv=0.004   transit      mismatch 10.0%: mean   66.252 mm  P95   70.878  run-to-run SD 0.1236
+  cv=0.004   turn         mismatch  0.0%: mean    0.949 deg  P95    1.127  run-to-run SD 0.1322
+  cv=0.004   turn         mismatch  5.0%: mean    0.949 deg  P95    1.127  run-to-run SD 0.1322
+  cv=0.004   turn         mismatch 10.0%: mean    0.949 deg  P95    1.127  run-to-run SD 0.1322
+  cv=0.004   tracking     mismatch  0.0%: mean    0.920 mm  P95    1.792  run-to-run SD 0.0516
+  cv=0.004   tracking     mismatch  5.0%: mean   26.670 mm  P95   29.315  run-to-run SD 0.0530
+  cv=0.004   tracking     mismatch 10.0%: mean   52.089 mm  P95   56.147  run-to-run SD 0.0542
+  cv=0.004   parking_pos  mismatch  0.0%: mean    4.701 mm  P95    4.973  run-to-run SD 0.2000
+  cv=0.004   parking_pos  mismatch  5.0%: mean    9.233 mm  P95   11.108  run-to-run SD 0.1090
+  cv=0.004   parking_pos  mismatch 10.0%: mean   16.397 mm  P95   18.754  run-to-run SD 0.0890
+  cv=0.004   parking_hdg  mismatch  0.0%: mean    0.950 deg  P95    1.131  run-to-run SD 0.1242
+  cv=0.004   parking_hdg  mismatch  5.0%: mean    0.949 deg  P95    1.132  run-to-run SD 0.1236
+  cv=0.004   parking_hdg  mismatch 10.0%: mean    0.948 deg  P95    1.130  run-to-run SD 0.1231
+  cv=0.004   Sobol transit      noise=0.000  S1 J/M/B/T=-0.000/+0.991/+0.006/+0.001  ST=0.000/0.992/0.008/0.000  sumS1=0.997
+  cv=0.004   Sobol turn         noise=0.980  S1 J/M/B/T=+0.642/+6.165/-5.134/+3.506  ST=0.406/0.039/0.356/0.190  sumS1=5.179
+  cv=0.004   Sobol tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.993/+0.006/+0.003  ST=0.000/0.995/0.007/0.001  sumS1=1.002
+  cv=0.004   Sobol parking_pos  noise=0.000  S1 J/M/B/T=-0.000/+0.994/+0.003/+0.001  ST=0.000/0.995/0.004/0.000  sumS1=0.998
+  cv=0.004   Sobol parking_hdg  noise=0.951  S1 J/M/B/T=+0.110/+0.866/+4.764/+7.213  ST=0.220/0.047/-0.178/0.616  sumS1=12.952
+  cv=0.008   transit      mismatch  0.0%: mean    4.704 mm  P95    4.980  run-to-run SD 0.2102
+  cv=0.008   transit      mismatch  5.0%: mean   34.177 mm  P95   36.560  run-to-run SD 0.2392
+  cv=0.008   transit      mismatch 10.0%: mean   66.255 mm  P95   70.855  run-to-run SD 0.2424
+  cv=0.008   turn         mismatch  0.0%: mean    0.948 deg  P95    1.127  run-to-run SD 0.1312
+  cv=0.008   turn         mismatch  5.0%: mean    0.948 deg  P95    1.127  run-to-run SD 0.1312
+  cv=0.008   turn         mismatch 10.0%: mean    0.948 deg  P95    1.127  run-to-run SD 0.1312
+  cv=0.008   tracking     mismatch  0.0%: mean    0.924 mm  P95    1.809  run-to-run SD 0.1014
+  cv=0.008   tracking     mismatch  5.0%: mean   26.671 mm  P95   29.319  run-to-run SD 0.1055
+  cv=0.008   tracking     mismatch 10.0%: mean   52.090 mm  P95   56.134  run-to-run SD 0.1067
+  cv=0.008   parking_pos  mismatch  0.0%: mean    4.699 mm  P95    4.973  run-to-run SD 0.2019
+  cv=0.008   parking_pos  mismatch  5.0%: mean    9.234 mm  P95   11.098  run-to-run SD 0.1124
+  cv=0.008   parking_pos  mismatch 10.0%: mean   16.398 mm  P95   18.744  run-to-run SD 0.0933
+  cv=0.008   parking_hdg  mismatch  0.0%: mean    0.950 deg  P95    1.132  run-to-run SD 0.1229
+  cv=0.008   parking_hdg  mismatch  5.0%: mean    0.950 deg  P95    1.132  run-to-run SD 0.1225
+  cv=0.008   parking_hdg  mismatch 10.0%: mean    0.950 deg  P95    1.132  run-to-run SD 0.1233
+  cv=0.008   Sobol transit      noise=0.000  S1 J/M/B/T=-0.000/+0.991/+0.006/+0.001  ST=-0.000/0.992/0.008/0.000  sumS1=0.997
+  cv=0.008   Sobol turn         noise=0.984  S1 J/M/B/T=-5.334/+3.163/-9.251/-2.567  ST=0.644/-0.181/0.264/-0.058  sumS1=-13.989
+  cv=0.008   Sobol tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.992/+0.006/+0.003  ST=-0.000/0.995/0.007/0.001  sumS1=1.002
+  cv=0.008   Sobol parking_pos  noise=0.000  S1 J/M/B/T=-0.000/+0.994/+0.003/+0.001  ST=0.000/0.995/0.004/0.000  sumS1=0.997
+  cv=0.008   Sobol parking_hdg  noise=0.949  S1 J/M/B/T=-0.843/+1.478/+5.012/+6.271  ST=0.135/-0.159/-0.206/0.785  sumS1=11.917
+  cv=0.016   transit      mismatch  0.0%: mean    4.721 mm  P95    4.999  run-to-run SD 0.2132
+  cv=0.016   transit      mismatch  5.0%: mean   34.183 mm  P95   36.693  run-to-run SD 0.4750
+  cv=0.016   transit      mismatch 10.0%: mean   66.260 mm  P95   70.888  run-to-run SD 0.4822
+  cv=0.016   turn         mismatch  0.0%: mean    0.948 deg  P95    1.127  run-to-run SD 0.1314
+  cv=0.016   turn         mismatch  5.0%: mean    0.948 deg  P95    1.127  run-to-run SD 0.1314
+  cv=0.016   turn         mismatch 10.0%: mean    0.948 deg  P95    1.127  run-to-run SD 0.1314
+  cv=0.016   tracking     mismatch  0.0%: mean    0.942 mm  P95    1.876  run-to-run SD 0.1955
+  cv=0.016   tracking     mismatch  5.0%: mean   26.671 mm  P95   29.349  run-to-run SD 0.2106
+  cv=0.016   tracking     mismatch 10.0%: mean   52.090 mm  P95   56.142  run-to-run SD 0.2124
+  cv=0.016   parking_pos  mismatch  0.0%: mean    4.696 mm  P95    4.974  run-to-run SD 0.2049
+  cv=0.016   parking_pos  mismatch  5.0%: mean    9.232 mm  P95   11.100  run-to-run SD 0.1255
+  cv=0.016   parking_pos  mismatch 10.0%: mean   16.397 mm  P95   18.751  run-to-run SD 0.1113
+  cv=0.016   parking_hdg  mismatch  0.0%: mean    0.951 deg  P95    1.132  run-to-run SD 0.1265
+  cv=0.016   parking_hdg  mismatch  5.0%: mean    0.950 deg  P95    1.132  run-to-run SD 0.1249
+  cv=0.016   parking_hdg  mismatch 10.0%: mean    0.951 deg  P95    1.133  run-to-run SD 0.1271
+  cv=0.016   Sobol transit      noise=0.000  S1 J/M/B/T=-0.001/+0.990/+0.006/+0.001  ST=-0.000/0.992/0.008/0.000  sumS1=0.996
+  cv=0.016   Sobol turn         noise=0.989  S1 J/M/B/T=-12.499/-1.130/-18.365/-9.295  ST=1.233/0.324/0.907/-0.980  sumS1=-41.288
+  cv=0.016   Sobol tracking     noise=0.000  S1 J/M/B/T=-0.000/+0.992/+0.006/+0.003  ST=-0.000/0.995/0.007/0.001  sumS1=1.002
+  cv=0.016   Sobol parking_pos  noise=0.000  S1 J/M/B/T=+0.000/+0.994/+0.003/+0.001  ST=0.000/0.995/0.004/0.000  sumS1=0.998
+  cv=0.016   Sobol parking_hdg  noise=0.952  S1 J/M/B/T=-1.624/+5.227/+4.740/+5.169  ST=0.358/-0.241/-0.089/0.814  sumS1=13.513

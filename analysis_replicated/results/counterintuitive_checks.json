@@ -1,0 +1,1069 @@
+{
+  "shooter": {
+    "files_used": [
+      "19700101_010247_RedShootFromFront_ShooterLog.csv",
+      "19700101_012159_RedShootFromFront_ShooterLog.csv",
+      "20251130_002641_BlueShootFromFront_ShooterLog.csv",
+      "20251130_003648_RedShootFromFront_ShooterLog.csv",
+      "20251130_004107_MainTeleop_ShooterLog.csv",
+      "20251130_004525_MainTeleop_ShooterLog.csv",
+      "20251130_004913_MainTeleop_ShooterLog.csv",
+      "20251130_005314_MainTeleop_ShooterLog.csv",
+      "20251204_042016_MainTeleop_ShooterLog.csv",
+      "20251204_042107_MainTeleop_ShooterLog.csv",
+      "20251204_043343_MainTeleop_ShooterLog.csv",
+      "20251204_043409_MainTeleop_ShooterLog.csv",
+      "20251204_043511_MainTeleop_ShooterLog.csv",
+      "20251204_043538_MainTeleop_ShooterLog.csv",
+      "20251204_044843_MainTeleop_ShooterLog.csv",
+      "20251204_051637_MainTeleop_ShooterLog.csv",
+      "20251204_052232_MainTeleop_ShooterLog.csv",
+      "20251204_052504_MainTeleop_ShooterLog.csv",
+      "20251204_052922_MainTeleop_ShooterLog.csv",
+      "20251204_053344_MainTeleop_ShooterLog.csv",
+      "20251213_200925_Shooter_ShooterLog.csv",
+      "20251213_201231_Shooter_ShooterLog.csv",
+      "20251213_202107_aligntest_ShooterLog.csv",
+      "20251213_203459_Shooter_ShooterLog.csv",
+      "20251213_203622_Shooter_ShooterLog.csv",
+      "20251213_203902_Shooter_ShooterLog.csv",
+      "20251213_203910_Shooter_ShooterLog.csv",
+      "20251213_203932_Shooter_ShooterLog.csv"
+    ],
+    "configured_kV_ratio": 1.1875,
+    "quantization_only_error_sd_tps": 5.773502691896258,
+    "groups": {
+      "target_between_steps": {
+        "windows": 53,
+        "rows": 92997,
+        "targets": [
+          650.0,
+          675.0,
+          695.0,
+          710.0,
+          750.0,
+          770.0,
+          775.3899999999999,
+          805.0,
+          825.0,
+          830.7749999999999,
+          845.0,
+          930.0
+        ],
+        "ratio_weighted_mean": 1.047778283687475,
+        "ratio_median": 1.06513488831178,
+        "ratio_iqr": [
+          1.0256818325148607,
+          1.0895223823807754
+        ],
+        "error_sd_tps": 9.888556855939877,
+        "error_corr_right_left": 0.02684718169622606,
+        "share_rows_error_exactly_zero": 0.0
+      },
+      "target_multiple_of_20": {
+        "windows": 28,
+        "rows": 30144,
+        "targets": [
+          720.0,
+          740.0,
+          760.0,
+          800.0
+        ],
+        "ratio_weighted_mean": 1.170026070080066,
+        "ratio_median": 1.1373237864053118,
+        "ratio_iqr": [
+          1.120808923492753,
+          1.1658752340230636
+        ],
+        "error_sd_tps": 9.521506662211927,
+        "error_corr_right_left": 0.04773242745690638,
+        "share_rows_error_exactly_zero": 0.7290115977150771
+      }
+    },
+    "implied_integral_term": {
+      "min": -0.0050000000000000044,
+      "max": 0.0050000000000000044,
+      "percentiles_5_50_95": [
+        -0.0050000000000000044,
+        -0.001373418349962241,
+        0.005
+      ]
+    },
+    "windows": [
+      {
+        "file": "19700101_012159_RedShootFromFront_ShooterLog.csv",
+        "target": 830.7749999999999,
+        "rows": 2459,
+        "on_grid": false,
+        "ratio": 0.9528782058778054,
+        "error_sd_right": 10.532494963737802,
+        "error_sd_left": 10.57857021163866,
+        "error_corr": 0.07090108914734673
+      },
+      {
+        "file": "20251130_002641_BlueShootFromFront_ShooterLog.csv",
+        "target": 775.3899999999999,
+        "rows": 2217,
+        "on_grid": false,
+        "ratio": 1.0790521739188532,
+        "error_sd_right": 9.59200869185933,
+        "error_sd_left": 8.34034949198669,
+        "error_corr": -0.0005658554726667416
+      },
+      {
+        "file": "20251130_003648_RedShootFromFront_ShooterLog.csv",
+        "target": 775.3899999999999,
+        "rows": 2001,
+        "on_grid": false,
+        "ratio": 1.0995760562588994,
+        "error_sd_right": 8.98342078917949,
+        "error_sd_left": 8.882620645127055,
+        "error_corr": 0.03425011978846696
+      },
+      {
+        "file": "20251130_004107_MainTeleop_ShooterLog.csv",
+        "target": 930.0,
+        "rows": 856,
+        "on_grid": false,
+        "ratio": 1.0856517020067489,
+        "error_sd_right": 10.130886346883528,
+        "error_sd_left": 9.919829478777064,
+        "error_corr": -0.046530662693836614
+      },
+      {
+        "file": "20251130_004107_MainTeleop_ShooterLog.csv",
+        "target": 770.0,
+        "rows": 4568,
+        "on_grid": false,
+        "ratio": 1.0528358089262402,
+        "error_sd_right": 9.610664662491592,
+        "error_sd_left": 10.39612405824725,
+        "error_corr": 0.013253474139717551
+      },
+      {
+        "file": "20251130_004525_MainTeleop_ShooterLog.csv",
+        "target": 930.0,
+        "rows": 2716,
+        "on_grid": false,
+        "ratio": 1.0814160409285747,
+        "error_sd_right": 10.448336938849428,
+        "error_sd_left": 10.292017516713823,
+        "error_corr": 0.01591772107368733
+      },
+      {
+        "file": "20251130_004525_MainTeleop_ShooterLog.csv",
+        "target": 770.0,
+        "rows": 2263,
+        "on_grid": false,
+        "ratio": 1.0076146797310714,
+        "error_sd_right": 9.75366994913765,
+        "error_sd_left": 10.530281021625164,
+        "error_corr": 0.047001169485113306
+      },
+      {
+        "file": "20251130_004913_MainTeleop_ShooterLog.csv",
+        "target": 930.0,
+        "rows": 2432,
+        "on_grid": false,
+        "ratio": 1.06513488831178,
+        "error_sd_right": 10.083058982203232,
+        "error_sd_left": 10.577330732048713,
+        "error_corr": 0.025981918028332406
+      },
+      {
+        "file": "20251130_005314_MainTeleop_ShooterLog.csv",
+        "target": 930.0,
+        "rows": 3419,
+        "on_grid": false,
+        "ratio": 1.0733435117848753,
+        "error_sd_right": 10.72261176277155,
+        "error_sd_left": 10.734907399656633,
+        "error_corr": 0.08999842954327349
+      },
+      {
+        "file": "20251204_042016_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 1008,
+        "on_grid": false,
+        "ratio": 1.0256818325148607,
+        "error_sd_right": 9.453614797643965,
+        "error_sd_left": 11.23606657878089,
+        "error_corr": 0.008247023747333217
+      },
+      {
+        "file": "20251204_042016_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 1007,
+        "on_grid": true,
+        "ratio": 1.1204845015770657,
+        "error_sd_right": 9.883382075564857,
+        "error_sd_left": 10.487927537383564,
+        "error_corr": 0.030976664148118553
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 965,
+        "on_grid": false,
+        "ratio": 1.0346748431040838,
+        "error_sd_right": 9.958225474224282,
+        "error_sd_left": 10.9923034662123,
+        "error_corr": 0.07465396059207376
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 355,
+        "on_grid": true,
+        "ratio": 1.1324808870814747,
+        "error_sd_right": 11.395785595506101,
+        "error_sd_left": 11.717477368498578,
+        "error_corr": 0.0057208587485696695
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 351,
+        "on_grid": false,
+        "ratio": 1.1071518597061938,
+        "error_sd_right": 10.048964373590195,
+        "error_sd_left": 10.783245720950083,
+        "error_corr": 0.12764344893189727
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 338,
+        "on_grid": true,
+        "ratio": 1.1307773755819481,
+        "error_sd_right": 10.235922625102098,
+        "error_sd_left": 10.859180225248766,
+        "error_corr": -0.0513700390801237
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 435,
+        "on_grid": false,
+        "ratio": 1.0669542980227729,
+        "error_sd_right": 10.046768120064806,
+        "error_sd_left": 10.771008282347635,
+        "error_corr": 0.06754875692317185
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 362,
+        "on_grid": true,
+        "ratio": 1.1453599740501514,
+        "error_sd_right": 10.348157940047932,
+        "error_sd_left": 11.174024234255628,
+        "error_corr": 0.08888986634585537
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 326,
+        "on_grid": true,
+        "ratio": 1.1141210894433926,
+        "error_sd_right": 9.712040857208189,
+        "error_sd_left": 9.880073711066226,
+        "error_corr": 0.04603352229525785
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 483,
+        "on_grid": false,
+        "ratio": 1.0787621422862597,
+        "error_sd_right": 10.161619314024255,
+        "error_sd_left": 10.454480004334352,
+        "error_corr": 0.08835510873682076
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 1745,
+        "on_grid": false,
+        "ratio": 1.0149985595812243,
+        "error_sd_right": 10.251522554053635,
+        "error_sd_left": 11.18962922121424,
+        "error_corr": 0.08663726574266141
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 409,
+        "on_grid": true,
+        "ratio": 1.116441068322167,
+        "error_sd_right": 10.757983800255966,
+        "error_sd_left": 10.290846870684785,
+        "error_corr": -0.10362563686264256
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 586,
+        "on_grid": true,
+        "ratio": 1.2032037208238875,
+        "error_sd_right": 10.77520909876908,
+        "error_sd_left": 11.05227560321635,
+        "error_corr": -0.09611653450857682
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 312,
+        "on_grid": true,
+        "ratio": 1.1524014037535686,
+        "error_sd_right": 10.142849760776516,
+        "error_sd_left": 10.797989937624953,
+        "error_corr": -0.06639581069647606
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 527,
+        "on_grid": false,
+        "ratio": 1.19115478308128,
+        "error_sd_right": 10.15546429394427,
+        "error_sd_left": 10.169095795776764,
+        "error_corr": -0.049253900783572946
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 624,
+        "on_grid": false,
+        "ratio": 1.136371426588137,
+        "error_sd_right": 10.192562981129683,
+        "error_sd_left": 10.447403924180893,
+        "error_corr": 0.07271132680911742
+      },
+      {
+        "file": "20251204_042107_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 1026,
+        "on_grid": false,
+        "ratio": 1.1534301245337568,
+        "error_sd_right": 9.968371033054076,
+        "error_sd_left": 10.228037514140816,
+        "error_corr": 0.004633336626854291
+      },
+      {
+        "file": "20251204_043343_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 485,
+        "on_grid": false,
+        "ratio": 1.0895223823807754,
+        "error_sd_right": 9.769953399843814,
+        "error_sd_left": 10.14842562805309,
+        "error_corr": -0.04562955684032058
+      },
+      {
+        "file": "20251204_043409_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 3296,
+        "on_grid": false,
+        "ratio": 1.1295434452663131,
+        "error_sd_right": 9.511392077590429,
+        "error_sd_left": 10.14589094577301,
+        "error_corr": -0.013503331313991925
+      },
+      {
+        "file": "20251204_043511_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 1150,
+        "on_grid": false,
+        "ratio": 1.1358125008724487,
+        "error_sd_right": 9.772854460194708,
+        "error_sd_left": 10.438002933915097,
+        "error_corr": 0.024918817515015308
+      },
+      {
+        "file": "20251204_043538_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 388,
+        "on_grid": false,
+        "ratio": 1.1148996821385948,
+        "error_sd_right": 9.58667926885113,
+        "error_sd_left": 9.959560203491675,
+        "error_corr": 0.1203061125937685
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 512,
+        "on_grid": false,
+        "ratio": 1.0896826520277203,
+        "error_sd_right": 9.53383869356062,
+        "error_sd_left": 10.13779512131322,
+        "error_corr": -0.10848140496065949
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 745,
+        "on_grid": false,
+        "ratio": 1.0683538807586292,
+        "error_sd_right": 9.672265351939016,
+        "error_sd_left": 11.077283668215697,
+        "error_corr": -0.044164618856750944
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 998,
+        "on_grid": false,
+        "ratio": 1.0949925522665171,
+        "error_sd_right": 9.668736287655834,
+        "error_sd_left": 10.180747329900651,
+        "error_corr": 0.0005227510179388492
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 725,
+        "on_grid": false,
+        "ratio": 0.9917038126977955,
+        "error_sd_right": 10.19430208540894,
+        "error_sd_left": 8.533282926757837,
+        "error_corr": 0.014138824538412158
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 650.0,
+        "rows": 1947,
+        "on_grid": false,
+        "ratio": 1.0757926180446178,
+        "error_sd_right": 9.729607305961853,
+        "error_sd_left": 10.422621304621194,
+        "error_corr": 0.05462169410537439
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 1002,
+        "on_grid": false,
+        "ratio": 1.0171366027163824,
+        "error_sd_right": 10.09349099970844,
+        "error_sd_left": 9.740573593002113,
+        "error_corr": 0.02834151119782764
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 650.0,
+        "rows": 980,
+        "on_grid": false,
+        "ratio": 1.0950482646992412,
+        "error_sd_right": 9.737309733725937,
+        "error_sd_left": 10.192350722871051,
+        "error_corr": 0.02744419761450069
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 661,
+        "on_grid": false,
+        "ratio": 1.0763441302260022,
+        "error_sd_right": 9.272931322212443,
+        "error_sd_left": 10.272409401017981,
+        "error_corr": 0.0038020894404442044
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 811,
+        "on_grid": false,
+        "ratio": 1.0572948237611262,
+        "error_sd_right": 9.765077878715507,
+        "error_sd_left": 10.584995827593316,
+        "error_corr": 0.049148465100122884
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 884,
+        "on_grid": false,
+        "ratio": 1.0281498197634549,
+        "error_sd_right": 9.957710758307728,
+        "error_sd_left": 9.498015890042861,
+        "error_corr": 0.03092705653194863
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 650.0,
+        "rows": 1973,
+        "on_grid": false,
+        "ratio": 1.108390539704297,
+        "error_sd_right": 9.777164146633057,
+        "error_sd_left": 10.267110082637748,
+        "error_corr": 0.008348895812707726
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 675.0,
+        "rows": 1687,
+        "on_grid": false,
+        "ratio": 1.080542944201379,
+        "error_sd_right": 8.148301848658145,
+        "error_sd_left": 9.213807818042225,
+        "error_corr": 0.06643818811487173
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 5325,
+        "on_grid": false,
+        "ratio": 1.006873870552468,
+        "error_sd_right": 9.852423007343699,
+        "error_sd_left": 9.631132961906639,
+        "error_corr": 0.04526318384459755
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 750.0,
+        "rows": 1633,
+        "on_grid": false,
+        "ratio": 1.0552443777430303,
+        "error_sd_right": 9.954282947575694,
+        "error_sd_left": 10.545215301060022,
+        "error_corr": 0.062176703699200135
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 11139,
+        "on_grid": false,
+        "ratio": 1.0005672504847396,
+        "error_sd_right": 9.848109251067525,
+        "error_sd_left": 9.718185465858102,
+        "error_corr": 0.04284228931432313
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 720.0,
+        "rows": 5376,
+        "on_grid": true,
+        "ratio": 1.178204546108105,
+        "error_sd_right": 8.228411466391531,
+        "error_sd_left": 9.949856980446501,
+        "error_corr": 0.07965915847229081
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 740.0,
+        "rows": 3097,
+        "on_grid": true,
+        "ratio": 1.1856238477318615,
+        "error_sd_right": 8.808241967512663,
+        "error_sd_left": 10.157404341693532,
+        "error_corr": 0.11629651053490445
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 760.0,
+        "rows": 5310,
+        "on_grid": true,
+        "ratio": 1.1567032862684543,
+        "error_sd_right": 8.899635549861268,
+        "error_sd_left": 9.764187123976619,
+        "error_corr": 0.03518221500043919
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 2262,
+        "on_grid": false,
+        "ratio": 1.0320537401806575,
+        "error_sd_right": 9.344543931322553,
+        "error_sd_left": 9.978486480897262,
+        "error_corr": 0.058475844998259974
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 805.0,
+        "rows": 3123,
+        "on_grid": false,
+        "ratio": 1.0634744689638898,
+        "error_sd_right": 9.447026201591509,
+        "error_sd_left": 9.996702022298908,
+        "error_corr": -0.0054497164586427
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 825.0,
+        "rows": 2242,
+        "on_grid": false,
+        "ratio": 1.046500504712058,
+        "error_sd_right": 9.494049593600481,
+        "error_sd_left": 9.510805886624679,
+        "error_corr": 0.014381172656967483
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 845.0,
+        "rows": 6920,
+        "on_grid": false,
+        "ratio": 1.040373351568627,
+        "error_sd_right": 9.290425990477587,
+        "error_sd_left": 9.71214503936065,
+        "error_corr": -0.007348425092743764
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 720.0,
+        "rows": 3327,
+        "on_grid": true,
+        "ratio": 1.200861533730505,
+        "error_sd_right": 7.984454063751402,
+        "error_sd_left": 8.929657310816818,
+        "error_corr": 0.0577291518461322
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 740.0,
+        "rows": 3548,
+        "on_grid": true,
+        "ratio": 1.2259015088942715,
+        "error_sd_right": 8.549844210500977,
+        "error_sd_left": 9.708086550804254,
+        "error_corr": 0.051598373217339615
+      },
+      {
+        "file": "20251204_044843_MainTeleop_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 4718,
+        "on_grid": false,
+        "ratio": 1.0536003859830392,
+        "error_sd_right": 9.350243223672198,
+        "error_sd_left": 9.685460336799894,
+        "error_corr": -0.004795014594705243
+      },
+      {
+        "file": "20251204_051637_MainTeleop_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 1504,
+        "on_grid": false,
+        "ratio": 1.0020439736696223,
+        "error_sd_right": 10.709066577595742,
+        "error_sd_left": 10.098527582745767,
+        "error_corr": 0.06044221773342309
+      },
+      {
+        "file": "20251204_051637_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 325,
+        "on_grid": true,
+        "ratio": 1.0917533506180124,
+        "error_sd_right": 9.050664611758073,
+        "error_sd_left": 10.113130257676747,
+        "error_corr": 0.02672707392240779
+      },
+      {
+        "file": "20251204_051637_MainTeleop_ShooterLog.csv",
+        "target": 720.0,
+        "rows": 307,
+        "on_grid": true,
+        "ratio": 1.1617654633280499,
+        "error_sd_right": 9.199044874531761,
+        "error_sd_left": 10.537491448273606,
+        "error_corr": 0.27607399431193624
+      },
+      {
+        "file": "20251204_052504_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 373,
+        "on_grid": true,
+        "ratio": 1.0673639873374443,
+        "error_sd_right": 10.732894231929732,
+        "error_sd_left": 10.259960978168724,
+        "error_corr": -0.006335210168010744
+      },
+      {
+        "file": "20251204_052504_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 405,
+        "on_grid": true,
+        "ratio": 1.1491651799273541,
+        "error_sd_right": 10.568025753035979,
+        "error_sd_left": 11.292902277673095,
+        "error_corr": 0.012536479423735675
+      },
+      {
+        "file": "20251204_052504_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 307,
+        "on_grid": true,
+        "ratio": 1.0907663519594164,
+        "error_sd_right": 11.081863103791925,
+        "error_sd_left": 10.813103529367138,
+        "error_corr": -0.028746539299841993
+      },
+      {
+        "file": "20251204_052922_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 329,
+        "on_grid": true,
+        "ratio": 1.1309796917569017,
+        "error_sd_right": 9.436255818060948,
+        "error_sd_left": 10.077540576890726,
+        "error_corr": -0.08867830614448002
+      },
+      {
+        "file": "20251204_052922_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 387,
+        "on_grid": true,
+        "ratio": 1.1209170641313153,
+        "error_sd_right": 11.479325443599771,
+        "error_sd_left": 11.436792832000394,
+        "error_corr": -0.039465905187841155
+      },
+      {
+        "file": "20251204_052922_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 393,
+        "on_grid": true,
+        "ratio": 1.1467467301623888,
+        "error_sd_right": 10.818168389584043,
+        "error_sd_left": 10.426337879455545,
+        "error_corr": -0.024170472543627176
+      },
+      {
+        "file": "20251204_052922_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 512,
+        "on_grid": true,
+        "ratio": 1.1937760605216254,
+        "error_sd_right": 10.241697510963041,
+        "error_sd_left": 10.804182957252108,
+        "error_corr": 0.007516300854384836
+      },
+      {
+        "file": "20251204_053344_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 334,
+        "on_grid": true,
+        "ratio": 1.1828109848647412,
+        "error_sd_right": 8.776350592298629,
+        "error_sd_left": 11.580904579687113,
+        "error_corr": 0.004741520605645201
+      },
+      {
+        "file": "20251204_053344_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 416,
+        "on_grid": true,
+        "ratio": 1.1332305370919358,
+        "error_sd_right": 10.520732873896785,
+        "error_sd_left": 10.77951151011323,
+        "error_corr": 0.04016585379583456
+      },
+      {
+        "file": "20251204_053344_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 321,
+        "on_grid": true,
+        "ratio": 1.1074461327004346,
+        "error_sd_right": 10.147663666165721,
+        "error_sd_left": 10.892422127932985,
+        "error_corr": 0.01268285283206427
+      },
+      {
+        "file": "20251204_053344_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 398,
+        "on_grid": true,
+        "ratio": 1.1389053224630363,
+        "error_sd_right": 10.635420080923472,
+        "error_sd_left": 8.947073525953035,
+        "error_corr": 0.011679258689173544
+      },
+      {
+        "file": "20251204_053344_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 387,
+        "on_grid": true,
+        "ratio": 1.1212207940230297,
+        "error_sd_right": 10.024137101557034,
+        "error_sd_left": 9.792261920241591,
+        "error_corr": 0.05935954910783867
+      },
+      {
+        "file": "20251204_053344_MainTeleop_ShooterLog.csv",
+        "target": 800.0,
+        "rows": 597,
+        "on_grid": true,
+        "ratio": 1.1357422503475874,
+        "error_sd_right": 10.020383259726918,
+        "error_sd_left": 9.1897409904418,
+        "error_corr": 0.09654248141576706
+      },
+      {
+        "file": "20251213_200925_Shooter_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 749,
+        "on_grid": false,
+        "ratio": 0.9672283704662228,
+        "error_sd_right": 10.4103562250173,
+        "error_sd_left": 9.253958592243299,
+        "error_corr": -0.0036388564672932317
+      },
+      {
+        "file": "20251213_200925_Shooter_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 350,
+        "on_grid": false,
+        "ratio": 0.9116793692890548,
+        "error_sd_right": 10.61189718430141,
+        "error_sd_left": 10.332816152621726,
+        "error_corr": 0.02042729618214722
+      },
+      {
+        "file": "20251213_200925_Shooter_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 497,
+        "on_grid": false,
+        "ratio": 0.9671859680828729,
+        "error_sd_right": 10.210671128475319,
+        "error_sd_left": 9.369006489421315,
+        "error_corr": -0.09213695582763622
+      },
+      {
+        "file": "20251213_200925_Shooter_ShooterLog.csv",
+        "target": 710.0,
+        "rows": 372,
+        "on_grid": false,
+        "ratio": 1.0918545562781834,
+        "error_sd_right": 9.77739660015536,
+        "error_sd_left": 10.163860512446874,
+        "error_corr": 0.1084936084003469
+      },
+      {
+        "file": "20251213_200925_Shooter_ShooterLog.csv",
+        "target": 710.0,
+        "rows": 348,
+        "on_grid": false,
+        "ratio": 1.0773147747641967,
+        "error_sd_right": 9.334935009240903,
+        "error_sd_left": 10.069650448140486,
+        "error_corr": -0.01765482043594766
+      },
+      {
+        "file": "20251213_201231_Shooter_ShooterLog.csv",
+        "target": 710.0,
+        "rows": 364,
+        "on_grid": false,
+        "ratio": 1.0789515550704134,
+        "error_sd_right": 9.684265737572053,
+        "error_sd_left": 9.979696641125447,
+        "error_corr": 0.05732169637008078
+      },
+      {
+        "file": "20251213_201231_Shooter_ShooterLog.csv",
+        "target": 710.0,
+        "rows": 817,
+        "on_grid": false,
+        "ratio": 1.011476645565267,
+        "error_sd_right": 9.222218800562215,
+        "error_sd_left": 10.941967016348682,
+        "error_corr": -0.0011416110969164003
+      },
+      {
+        "file": "20251213_201231_Shooter_ShooterLog.csv",
+        "target": 710.0,
+        "rows": 907,
+        "on_grid": false,
+        "ratio": 1.05932443272294,
+        "error_sd_right": 9.289233412962448,
+        "error_sd_left": 10.229804709800247,
+        "error_corr": 0.032112606516083685
+      },
+      {
+        "file": "20251213_203932_Shooter_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 875,
+        "on_grid": false,
+        "ratio": 0.9489861114704955,
+        "error_sd_right": 11.297654869811332,
+        "error_sd_left": 9.400020170664092,
+        "error_corr": -0.009988295157215119
+      },
+      {
+        "file": "20251213_203932_Shooter_ShooterLog.csv",
+        "target": 695.0,
+        "rows": 513,
+        "on_grid": false,
+        "ratio": 1.0439850806661886,
+        "error_sd_right": 9.71935003522419,
+        "error_sd_left": 9.290104568033142,
+        "error_corr": 0.06336596231554495
+      }
+    ]
+  },
+  "scaling_laws": {
+    "task": "tracking (max lateral), theta_J=0.5, theta_B=0.5",
+    "rows": [
+      {
+        "distance_mm": 1000.0,
+        "power": 0.2,
+        "mismatch10_sim_mm": 8.329655277635899,
+        "mismatch10_pred_mm": 8.963585434173671,
+        "thermal_max_sim_mm": 2.0704564551546603,
+        "thermal_max_pred_mm": 2.2058823529411766
+      },
+      {
+        "distance_mm": 1000.0,
+        "power": 0.4,
+        "mismatch10_sim_mm": 16.15402939844704,
+        "mismatch10_pred_mm": 17.927170868347343,
+        "thermal_max_sim_mm": 0.9647382707835305,
+        "thermal_max_pred_mm": 1.1029411764705883
+      },
+      {
+        "distance_mm": 1000.0,
+        "power": 0.6,
+        "mismatch10_sim_mm": 23.412115164035175,
+        "mismatch10_pred_mm": 26.890756302521,
+        "thermal_max_sim_mm": 0.591410447653603,
+        "thermal_max_pred_mm": 0.7352941176470589
+      },
+      {
+        "distance_mm": 1000.0,
+        "power": 0.8,
+        "mismatch10_sim_mm": 30.09109380053768,
+        "mismatch10_pred_mm": 35.854341736694685,
+        "thermal_max_sim_mm": 0.39051928142789544,
+        "thermal_max_pred_mm": 0.5514705882352942
+      },
+      {
+        "distance_mm": 2000.0,
+        "power": 0.2,
+        "mismatch10_sim_mm": 17.303049174333868,
+        "mismatch10_pred_mm": 17.927170868347343,
+        "thermal_max_sim_mm": 8.55812338883686,
+        "thermal_max_pred_mm": 8.823529411764707
+      },
+      {
+        "distance_mm": 2000.0,
+        "power": 0.4,
+        "mismatch10_sim_mm": 34.064412199645176,
+        "mismatch10_pred_mm": 35.854341736694685,
+        "thermal_max_sim_mm": 4.151751781986946,
+        "thermal_max_pred_mm": 4.411764705882353
+      },
+      {
+        "distance_mm": 2000.0,
+        "power": 0.6,
+        "mismatch10_sim_mm": 50.29625704277104,
+        "mismatch10_pred_mm": 53.781512605042,
+        "thermal_max_sim_mm": 2.672221839358958,
+        "thermal_max_pred_mm": 2.9411764705882355
+      },
+      {
+        "distance_mm": 2000.0,
+        "power": 0.8,
+        "mismatch10_sim_mm": 65.92808852242645,
+        "mismatch10_pred_mm": 71.70868347338937,
+        "thermal_max_sim_mm": 1.9237859018456216,
+        "thermal_max_pred_mm": 2.2058823529411766
+      },
+      {
+        "distance_mm": 3000.0,
+        "power": 0.2,
+        "mismatch10_sim_mm": 26.28818944199936,
+        "mismatch10_pred_mm": 26.89075630252101,
+        "thermal_max_sim_mm": 19.512435807047577,
+        "thermal_max_pred_mm": 19.852941176470587
+      },
+      {
+        "distance_mm": 3000.0,
+        "power": 0.4,
+        "mismatch10_sim_mm": 52.00557802920912,
+        "mismatch10_pred_mm": 53.78151260504202,
+        "thermal_max_sim_mm": 9.539525601925869,
+        "thermal_max_pred_mm": 9.926470588235293
+      },
+      {
+        "distance_mm": 3000.0,
+        "power": 0.6,
+        "mismatch10_sim_mm": 77.15245516102775,
+        "mismatch10_pred_mm": 80.67226890756302,
+        "thermal_max_sim_mm": 6.24947157115191,
+        "thermal_max_pred_mm": 6.617647058823529
+      },
+      {
+        "distance_mm": 3000.0,
+        "power": 0.8,
+        "mismatch10_sim_mm": 101.74149296920001,
+        "mismatch10_pred_mm": 107.56302521008404,
+        "thermal_max_sim_mm": 4.588869346063684,
+        "thermal_max_pred_mm": 4.963235294117647
+      }
+    ]
+  },
+  "turn_stop_rule": {
+    "draws": 2000,
+    "rows": [
+      {
+        "theta_J": 0.0,
+        "theta_B": 0.0,
+        "sim_mean_deg": 0.9752183538655146,
+        "sim_sd_deg": 0.09903013838847856,
+        "pred_mean_deg": 0.9796885251133781,
+        "pred_sd_deg": 0.0959712408099542,
+        "step_deg": 0.3324541302965367
+      },
+      {
+        "theta_J": 0.0,
+        "theta_B": 1.0,
+        "sim_mean_deg": 0.9476305439478266,
+        "sim_sd_deg": 0.11264551889304826,
+        "pred_mean_deg": 0.9529231502166231,
+        "pred_sd_deg": 0.11142423721155698,
+        "step_deg": 0.38598488009004683
+      },
+      {
+        "theta_J": 0.5,
+        "theta_B": 0.0,
+        "sim_mean_deg": 0.9682351303733616,
+        "sim_sd_deg": 0.11156139051440399,
+        "pred_mean_deg": 0.9728641308383698,
+        "pred_sd_deg": 0.0999113066816864,
+        "step_deg": 0.34610291884655336
+      },
+      {
+        "theta_J": 0.5,
+        "theta_B": 1.0,
+        "sim_mean_deg": 0.9372256135024102,
+        "sim_sd_deg": 0.13092548304956786,
+        "pred_mean_deg": 0.9449999127956389,
+        "pred_sd_deg": 0.11599872046941555,
+        "step_deg": 0.4018313549320153
+      },
+      {
+        "theta_J": 1.0,
+        "theta_B": 0.0,
+        "sim_mean_deg": 0.9368011960826496,
+        "sim_sd_deg": 0.16517462716291062,
+        "pred_mean_deg": 0.9579487579447005,
+        "pred_sd_deg": 0.10852270123691006,
+        "step_deg": 0.3759336646338921
+      },
+      {
+        "theta_J": 1.0,
+        "theta_B": 1.0,
+        "sim_mean_deg": 0.8993982649726187,
+        "sim_sd_deg": 0.19032998263474973,
+        "pred_mean_deg": 0.9276829120631582,
+        "pred_sd_deg": 0.12599669550387016,
+        "step_deg": 0.4364653563969764
+      }
+    ]
+  },
+  "provenance": {
+    "forward_model.py": "55ba9d49e9df3ed961270bada139c649ea2166c57a069bbd38a5e2f12f809c27",
+    "counterintuitive_checks.py": "759bad9d30823db71860317a418dcdd6cbdfd3f902a490c76955a20de99bce73"
+  }
+}

@@ -1,0 +1,3 @@
+# Timestamp,TargetTPS,Tilt,RightTPS,RightError,RightPowerPID,RightPowerFF,RightPower,LeftTPS,LeftError,LeftPowerPID,LeftPowerFF,LeftPower
+# 0.000 PIDF Config: kP=0.0095 kI=0.005 kD=0.0
+# 0.001 Feedforward Config: kS=0.0 kV_Left=3.2E-4 kV_Right=3.8E-4 kA=0.01
