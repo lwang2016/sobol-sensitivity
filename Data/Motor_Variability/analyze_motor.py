@@ -236,7 +236,7 @@ def main(output_dir=None):
         print("    - Loop timing during motor operation")
         print("    - Confirmation that 4 motors at 5 power levels were tested")
         print("")
-        print("  What is MISSING for the paper:")
+        print("  What is MISSING for the motor model:")
         print("    - Actual velocity (ticks/sec) at each commanded power level")
         print("    - Motor-to-motor velocity differences at the same power")
         print("    - Within-motor velocity variance at constant power")

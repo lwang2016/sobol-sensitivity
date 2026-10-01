@@ -55,13 +55,7 @@ analysis_replicated/      Corrected analysis; model options are patched in memor
   (other scripts)         Earlier and supporting studies: corrected_thermal, warm_start, warm_start_signed,
                           mismatch_impact, controller_comparison, spread_sobol, motor_noise_check
   results/                JSON outputs and run logs
-
-paper_figures/
-  make_figures.py         Builds all figures from the saved results (no simulation)
-  figures/                PNG (600 dpi), PDF and figure_data.json
 ```
-
-Figure files map to the manuscript figures as follows: `fig1_workflow` (Fig. 1), `fig2_loop_timing` (Fig. 2), `fig3_motor_mismatch` (Fig. 3), `fig_fits` (Fig. 4), `fig_input_ranges` (Fig. 5), `fig_forward_model` (Fig. 6), `fig4_mismatch_remedies` (Fig. 7), `fig5_heading_reference` (Fig. 8), `fig6_single_vs_replicated` (Fig. 9).
 
 ## Data
 
@@ -102,9 +96,6 @@ python analysis_replicated/counterintuitive_checks.py
 python analysis_replicated/final_baseline.py
 python analysis_replicated/parking_absolute.py
 python analysis_replicated/warm_start_temperature.py
-
-# 4. Figures
-python paper_figures/make_figures.py
 
 # Tests
 cd analysis_replicated && python -m unittest discover -p "test_*.py"
